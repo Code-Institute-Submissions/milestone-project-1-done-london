@@ -6,9 +6,14 @@
     src: url("../fonts/p22_johnston_underground_regular.ttf")
 }
 
+/* --------------------------------------General */
+
 .uppercase {
     text-transform: uppercase;
 }
+
+/* --------------------------------------Colours */
+
 /* --------------------------------------Header */
 
 header {
@@ -61,4 +66,66 @@ header {
     width: 100%;
     text-decoration: none;
     color: #000000;
+}
+
+/* --------------------------------------Footer */
+
+
+footer {
+    margin: 0;
+}
+
+#footer-row {
+    /* height: 100px; */
+    border: solid 1px;
+}
+
+.no-gutters>.col, .no-gutters>[class*=col-] {
+    padding-right: 0;
+    padding-left: 50px;
+}
+
+.mailing-list {
+    font-family: "p22_johnston_underground_regular", sans-serif;
+}
+
+.mailing-list label {
+    font-size: 20px;
+}
+
+.copyright {
+    text-align: center;
+    line-height: 100px;
+    font-size: 10px;
+    padding: 0;
+}
+
+.copyright i span {
+    font-family: "p22_johnston_underground_regular", sans-serif;
+}
+
+button[type="submit"] {
+    color: #fff;
+    background-color: #b71c1c;
+    border: none;
+}
+
+button[type="submit"]:hover {
+    background-color: #7f0000;
+}
+
+.social-links {
+    text-align: right;
+    line-height: 100px;
+    margin: 0;
+}
+
+.no-gutters>.col, .no-gutters>[class*=col-] {
+    padding-right: 50px;
+}
+
+.social-links li a i {
+    color: #000000;
+    font-size: 30px;
+    margin: 0 12px;
 }
