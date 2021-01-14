@@ -12,9 +12,19 @@
     text-transform: uppercase;
 }
 
+.johnston-font {
+    font-family: "p22_johnston_underground_regular", sans-serif;
+}
+
+.roboto-font {
+    font-family: "Roboto", sans-serif;
+}
+
 .no-gutters>.col, .no-gutters>[class*=col-] {
-    padding-right: 30px;
-    padding-left: 30px;
+    /* padding-right: 30px;
+    padding-left: 30px; */
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
 }
 
 /* --------------------------------------Colours */
@@ -25,49 +35,70 @@ header {
     margin:0;
 }
 
-#header-row {
-    border: solid 1px;
-    /* height: 100px;  */
+.navbar {
+    border: solid 0.0625rem;
+    border-color: #000000;
+    /* margin: 5px; */
+    margin: 0.3125rem;
+    /* padding-left: 25px;  */
+    /* height: 100px; */
 }
 
-.logo {
+.navbar-brand {
     background: url("../images/done_boxlogo_lg.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    padding-left: 20px;
+    background-size: cover;
+    /* height: 50px;
+    width: 150px;
+    padding-left: 20px; */
+    height: 3.125rem;
+    width: 9.375rem;
+    padding-left: 1.25rem;
 }
+
+.nav-link {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler i {
+    color: #000000;
+    border: none;
+    font-size: 2.1875rem;
+}
+
+.navbar-toggler i:active {
+    color: #b71c1c;
+}
+
+.fa-bars:after {
+    color: #b71c1c;
+}
+
+/* .navbar-toggler i:active {
+    border: none;
+    color: #b71c1c;
+} */
+
+
+/* .navbar-toggler-icon {
+    color: #000000;
+    border: none;
+    font-size: 20px;
+}
+
+.navbar-toggler-icon:active {
+    color: #b71c1c;
+    border: none;
+} */
 
 .list-inline-item:not(:last-child) {
     margin: 0;
-}
-
-.menucontainer {
-    font-size: 0;
-}
-
-#nav {
-    margin: 0; 
-}
-
-#nav li {
-    font-size: 20px;
-    padding: 0;
-}
-
-.menuitem {
-    font-family: "p22_johnston_underground_regular", sans-serif;
-    font-weight: 600;
-    height: 100px;
-    line-height: 100px;
-    text-align: center;
-    padding: 0;
-}
-
-.menuitem a {
-    width: 100%;
-    text-decoration: none;
-    color: #000000;
 }
 
 /* --------------------------------------Footer */
@@ -77,27 +108,24 @@ footer {
 }
 
 #footer-row {
-    /* height: 100px; */
-    border: solid 1px;
+    height: 4.25rem;
+    border: solid 0.0625rem;
+    margin: 0.3125rem;
 }
 
 .mailing-list {
-    font-family: "p22_johnston_underground_regular", sans-serif;
+    padding-top: 0.187rem;
 }
 
 .mailing-list label {
-    font-size: 15px;
+    font-size: 0.937rem;
 }
 
 .copyright {
     text-align: center;
-    line-height: 100px;
-    font-size: 10px;
+    line-height: 4.25rem;
+    font-size: 0.625rem;
     padding: 0;
-}
-
-.copyright i span {
-    font-family: "p22_johnston_underground_regular", sans-serif;
 }
 
 button[type="submit"] {
@@ -112,14 +140,14 @@ button[type="submit"]:hover {
 
 .social-links {
     text-align: center;
-    line-height: 100px;
+    line-height: 4.25rem;
     margin: 0;
 }
 
 .social-links li a i {
     color: #000000;
-    font-size: 25px;
-    margin: 0 12px;
+    font-size: 1.25rem;
+    margin: 0 0.75rem;
 }
 
 
@@ -127,7 +155,7 @@ button[type="submit"]:hover {
 
 @media(min-width: 768px) {
     .social-links li a i {
-        font-size: 30px;
+        font-size: 1.875rem;
     }
 }
 
