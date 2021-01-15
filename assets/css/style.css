@@ -6,7 +6,22 @@
     src: url("../fonts/p22_johnston_underground_regular.ttf")
 }
 
-/* --------------------------------------General */
+/* --------------------------------------General paddings/margins/text */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.page-headding {
+    font-family: "p22_johnston_underground_regular", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #000000;
+    margin: 1.875rem
+}
 
 .uppercase {
     text-transform: uppercase;
@@ -19,6 +34,7 @@
 .roboto-font {
     font-family: "Roboto", sans-serif;
 }
+
 
 .no-gutters>.col, .no-gutters>[class*=col-] {
     /* padding-right: 30px;
@@ -104,6 +120,7 @@ button:focus {
 
 footer {
     margin: 0;
+    /* height: 15vh; */
 }
 
 #footer-row {
@@ -159,6 +176,10 @@ button[type="submit"]:hover {
 
 .carousel-container {
     margin: 1.25rem 0.3125rem;
+}
+
+#heroCarousel {
+    /* height: 70vh; */
 }
 
 
