@@ -15,12 +15,12 @@ h4 {
     margin: 0;
 }
 
-.page-headding {
+.page-heading {
     font-family: "p22_johnston_underground_regular", sans-serif;
     font-weight: 700;
     text-align: center;
     color: #000000;
-    margin: 1.875rem
+    margin: 1.875rem;
 }
 
 .uppercase {
@@ -36,12 +36,10 @@ h4 {
 }
 
 
-.no-gutters>.col, .no-gutters>[class*=col-] {
-    /* padding-right: 30px;
-    padding-left: 30px; */
+/* .no-gutters>.col, .no-gutters>[class*=col-] {
     padding-left: 1.875rem;
     padding-right: 1.875rem;
-}
+} */
 
 /* --------------------------------------Colours */
 
@@ -66,9 +64,6 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 50px;
-    width: 150px;
-    padding-left: 20px; */
     height: 3.125rem;
     width: 9.375rem;
     padding-left: 1.25rem;
@@ -132,7 +127,8 @@ footer {
 /* -------------Mailing List */
 
 .mailing-list {
-    padding-top: 0.187rem;
+    padding-top: 0.1875rem;
+    padding-left: 0.9375rem !important;
 }
 
 .mailing-list label {
@@ -163,6 +159,7 @@ button[type="submit"]:hover {
 .social-links {
     text-align: center;
     line-height: 4.25rem;
+    padding-right: 0.9375rem !important;
     margin: 0;
 }
 
@@ -182,7 +179,30 @@ button[type="submit"]:hover {
     /* height: 70vh; */
 }
 
+/* --------------------------------------Shop */
 
+
+/* .shopcontainer {
+}
+
+.shopcontainer img {
+    height: 10rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+
+.shopcontainer p {
+    text-align: center;
+}
+.shopitem {
+}
+
+.product-description {
+    font-weight: 600;
+    margin-bottom: 0;
+} */
 
 /* --------------------------------------Media Queries */
 
