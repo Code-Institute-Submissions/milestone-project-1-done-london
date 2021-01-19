@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-
 @font-face {
     font-family: "P22 Johnston Underground";
     src: url("../fonts/p22_johnston_underground_regular.ttf")
@@ -15,13 +14,14 @@ h4 {
     margin: 0;
 }
 
+/* -------------Headings */
+
 .heading {
     font-family: "p22_johnston_underground_regular", sans-serif;
     font-weight: 700;
     text-align: center;
     color: #000000;
     margin: 1.875rem;
-    padding-bottom: 1.25rem;
 }
 
 .sub-heading {
@@ -34,6 +34,8 @@ h4 {
 
 }
 
+/* -------------Text */
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -45,6 +47,8 @@ h4 {
 .roboto-font {
     font-family: "Roboto", sans-serif;
 }
+
+/* -------------Buttons */
 
 .btn-primary {
     color: #fff;
@@ -105,11 +109,6 @@ header {
     margin: 0;
 }
 
-button:focus {
-    outline: none;
-    color: #b71c1c;
-}
-
 /* .navbar-toggler i:active {
     border: none;
     color: #b71c1c;
@@ -155,6 +154,7 @@ footer {
     font-size: 0.937rem;
 }
 
+/* button[type="submit"] { */ 
 
 
 /* -------------Copyright */
@@ -166,11 +166,7 @@ footer {
     padding: 0;
 }
 
-button[type="submit"] {
-    color: #fff;
-    background-color: #b71c1c;
-    border: none;
-}
+
 
 
 
@@ -238,17 +234,18 @@ button[type="submit"] {
 /* --------------------------------------About */
 
 .about-text {
-    text-align: center;
+    text-align: justify;
+    margin: 0 1.25rem;
 }
 
-.about-card {
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 10px; /* Added */
+.press-card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
 
 }
 
-.about-card img {
+.press-card img {
     height: 6.25rem;
     width: 6.25rem;
     /* margin-left: 9.25rem; */
@@ -256,8 +253,28 @@ button[type="submit"] {
     float: right;
 }
 
-.image-container {
-    padding-left: 140px;
+.btn-secondary {
+    color: #b71c1c;
+    background-color: #fff;
+    border: none;
+    padding: 0;
+}
+
+/* .btn-secondary:hover {
+    color: #b71c1c;
+    background-color: #fff;
+} */
+
+.btn-secondary:hover {
+    color: #b71c1c;
+    background-color: #fff;
+    border: none;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+    color: #b71c1c;
+    background-color: #fff;
+    border: none;
 }
 
 /* --------------------------------------Media Queries */
@@ -285,11 +302,15 @@ button[type="submit"] {
     #heroCarousel {
         display: none;
     }
+    
+    .press-card {
+        text-align: center;
+    }
+
+    .press-card img {
+        float: none;
+    }
 }
 
-/* @media screen and (prefers-reduced-motion: no-preference) {
-    .carousel-item {
-       scroll-behavior: smooth;
-    }
-} */
+
 
