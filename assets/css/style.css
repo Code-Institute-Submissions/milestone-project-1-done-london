@@ -21,6 +21,7 @@ h4 {
     text-align: center;
     color: #000000;
     margin: 1.875rem;
+    padding-bottom: 1.25rem;
 }
 
 .uppercase {
@@ -35,6 +36,15 @@ h4 {
     font-family: "Roboto", sans-serif;
 }
 
+.btn-primary {
+    color: #fff;
+    background-color: #b71c1c;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #7f0000;
+}
 
 /* .no-gutters>.col, .no-gutters>[class*=col-] {
     padding-left: 1.875rem;
@@ -135,6 +145,8 @@ footer {
     font-size: 0.937rem;
 }
 
+
+
 /* -------------Copyright */
 
 .copyright {
@@ -150,9 +162,7 @@ button[type="submit"] {
     border: none;
 }
 
-button[type="submit"]:hover {
-    background-color: #7f0000;
-}
+
 
 /* -------------Social Links */
 
@@ -181,6 +191,17 @@ button[type="submit"]:hover {
 
 /* --------------------------------------Shop */
 
+.card {
+    border: none;
+}
+
+.card-title {
+    margin-bottom: 0.3125rem;
+}
+
+.card-body {
+    margin-bottom: 2.5rem;
+}
 
 /* .shopcontainer {
 }
