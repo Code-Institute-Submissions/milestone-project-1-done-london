@@ -241,6 +241,25 @@ button[type="submit"] {
     text-align: center;
 }
 
+.about-card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+
+}
+
+.about-card img {
+    height: 6.25rem;
+    width: 6.25rem;
+    /* margin-left: 9.25rem; */
+    margin-top: 1.5625rem;
+    float: right;
+}
+
+.image-container {
+    padding-left: 140px;
+}
+
 /* --------------------------------------Media Queries */
 
 @media screen and (min-width: 768px) {
