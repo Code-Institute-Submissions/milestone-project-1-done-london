@@ -253,17 +253,16 @@ footer {
     float: right;
 }
 
+.roudel-logo img {
+    margin-top: 1rem; 
+}
+
 .btn-secondary {
     color: #b71c1c;
     background-color: #fff;
     border: none;
     padding: 0;
 }
-
-/* .btn-secondary:hover {
-    color: #b71c1c;
-    background-color: #fff;
-} */
 
 .btn-secondary:hover {
     color: #b71c1c;
