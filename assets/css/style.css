@@ -290,6 +290,13 @@ video:focus {
     padding: 0;
 }
 
+.shop-image, 
+.shop-map {
+    padding: 1.25rem;
+    border-radius: 1.5625rem;
+}
+
+
 /* --------------------------------------Media Queries */
 
 @media screen and (min-width: 768px) {
