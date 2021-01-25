@@ -60,10 +60,25 @@ h4 {
     background-color: #7f0000;
 }
 
-/* .no-gutters>.col, .no-gutters>[class*=col-] {
-    padding-left: 1.875rem;
-    padding-right: 1.875rem;
-} */
+.btn-secondary {
+    color: #b71c1c;
+    background-color: #fff;
+    border: none;
+    padding: 0;
+}
+
+.btn-secondary:hover {
+    color: #b71c1c;
+    background-color: #fff;
+    border: none;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+    color: #b71c1c;
+    background-color: #fff;
+    border: none;
+}
+
 
 /* --------------------------------------Colours */
 
@@ -191,6 +206,13 @@ footer {
     margin: 1.25rem 0.3125rem;
 }
 
+.carousel-button {
+    position: absolute;
+    bottom: 10%;
+    z-index: 20;
+    color: white;
+}
+
 /* #heroCarousel {
     height: 70vh;
 } */
@@ -265,25 +287,6 @@ video:focus {
     margin-top: 1rem; 
 }
 
-.btn-secondary {
-    color: #b71c1c;
-    background-color: #fff;
-    border: none;
-    padding: 0;
-}
-
-.btn-secondary:hover {
-    color: #b71c1c;
-    background-color: #fff;
-    border: none;
-}
-
-.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
-    color: #b71c1c;
-    background-color: #fff;
-    border: none;
-}
-
 /* --------------------------------------Contact*/
 
 .shop-location-info {
@@ -333,12 +336,21 @@ video:focus {
     .social-links li a i {
         font-size: 1.875rem;
     }
+
+    .carousel-button {
+        bottom: 8%;
+    } 
+  
 }
 
 @media screen and (min-width: 992px) {
     .social-links {
     text-align: right;
     }
+
+     .carousel-button {
+    bottom: 6%;
+    } 
 }
 
 @media screen and (min-width: 768px) {
@@ -352,6 +364,8 @@ video:focus {
     #heroCarousel {
         display: none;
     }
+
+
     
     .press-card {
         text-align: center;
