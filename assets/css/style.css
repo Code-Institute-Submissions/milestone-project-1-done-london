@@ -29,8 +29,8 @@ h4 {
     font-weight: 500;
     text-align: center;
     color: #000000;
-    margin: 1.875rem;
-    padding-bottom: 1.25rem;
+    margin: 1.25rem;
+    /* padding-bottom: 1.25rem; */
 
 }
 
@@ -145,12 +145,12 @@ footer {
 
 /* -------------Mailing List */
 
-.mailing-list {
+.mailing-list-footer {
     padding-top: 0.1875rem;
     padding-left: 0.9375rem !important;
 }
 
-.mailing-list label {
+.mailing-list-footer label {
     font-size: 0.937rem;
 }
 
@@ -287,7 +287,7 @@ video:focus {
 /* --------------------------------------Contact*/
 
 .shop-location-info {
-    padding: 0;
+    padding: 1.25rem;
 }
 
 .shop-image, 
@@ -295,6 +295,36 @@ video:focus {
     padding: 1.25rem;
     border-radius: 1.5625rem;
 }
+
+.contact-email-adresses {
+    padding: 1.25rem;
+}
+
+.contact-email-adresses a {
+    text-decoration: none;
+    color: #b71c1c;
+}
+
+.message-form {
+    padding: 1.25rem 0;
+}
+
+.form-group {
+    margin: auto;
+    width: 66%;
+    padding: 0.625rem;
+}
+
+.send-button,
+.mailing-list {
+    text-align: center;
+}
+
+.mailing-list {
+    padding: 1.25rem;
+}
+
+
 
 
 /* --------------------------------------Media Queries */
@@ -329,6 +359,14 @@ video:focus {
 
     .press-card img {
         float: none;
+    }
+
+    .shop-image {
+        display: none;
+    }
+
+    .form-group {
+    width: 75%;
     }
 }
 
