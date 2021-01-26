@@ -22,6 +22,9 @@ h4 {
     text-align: center;
     color: #000000;
     margin: 1.875rem;
+    border: 0.0625rem solid black;
+    background-color: #fff;
+    /* border: 1px solid black; */
 }
 
 .sub-heading {
@@ -31,7 +34,6 @@ h4 {
     color: #000000;
     margin: 1.25rem;
     /* padding-bottom: 1.25rem; */
-
 }
 
 /* -------------Text */
@@ -54,10 +56,22 @@ h4 {
     color: #fff;
     background-color: #b71c1c;
     border: none;
+    font-family: "p22_johnston_underground_regular", sans-serif;
 }
 
 .btn-primary:hover {
     background-color: #7f0000;
+}
+
+.btn-primary.focus, .btn-primary:focus  {
+    color: #fff;
+    background-color: #7f0000 ;
+    border-color: #7f0000;
+    box-shadow: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
 }
 
 .btn-secondary {
@@ -79,20 +93,48 @@ h4 {
     border: none;
 }
 
-
 /* --------------------------------------Colours */
+
+/* --------------------------------------Backgrounds */
+
+/* body { 
+  background: url(/assets/images/tile_pattern_blue.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
+
+/* body {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+}
+
+body::after {
+  content: "";
+  background: url(/assets/images/tile_pattern_blue.jpg);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+} */
 
 /* --------------------------------------Header */
 
 header {
     margin: 0;
+    background-color: #fff;
 }
 
 /* -------------Navbar */
 .navbar {
     border: solid 0.0625rem;
     border-color: #000000;
-    /* margin: 5px; */
     margin: 0.3125rem;
     /* padding-left: 25px;  */
     /* height: 100px; */
@@ -149,6 +191,7 @@ header {
 
 footer {
     margin: 0;
+    background-color: #fff;
     /* height: 15vh; */
 }
 
@@ -219,6 +262,14 @@ footer {
 
 /* --------------------------------------Shop */
 
+.shop-products {
+    padding: 1.25rem;
+}
+
+.shop-item {
+    margin-bottom: 2.5rem;
+}
+
 .card {
     border: none;
 }
@@ -227,9 +278,9 @@ footer {
     margin-bottom: 0.3125rem;
 }
 
-.card-body {
+/* .card-body {
     margin-bottom: 2.5rem;
-}
+} */
 
 /* .shopcontainer {
 }
@@ -261,7 +312,7 @@ footer {
 }
 
 .promo-video {
- 
+    margin: 0 auto;
 }
 
 video:focus {
@@ -282,6 +333,10 @@ video:focus {
     margin-top: 1.5625rem;
     float: right;
 }
+
+/* .card-body {
+    margin: 0;
+} */
 
 .roudel-logo img {
     margin-top: 1rem; 
@@ -340,7 +395,10 @@ video:focus {
     .carousel-button {
         bottom: 8%;
     } 
-  
+
+    .promo-video {
+        width: 75%;
+    }
 }
 
 @media screen and (min-width: 992px) {
