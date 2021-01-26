@@ -18,10 +18,11 @@ h4 {
 
 .heading {
     font-family: "p22_johnston_underground_regular", sans-serif;
+    text-transform: uppercase;
     font-weight: 700;
     text-align: center;
     color: #000000;
-    margin: 1.875rem;
+    margin: 1.875rem 0.3125rem;
     border: 0.0625rem solid black;
     background-color: #fff;
     /* border: 1px solid black; */
@@ -29,7 +30,8 @@ h4 {
 
 .sub-heading {
     font-family: "p22_johnston_underground_regular", sans-serif;
-    font-weight: 500;
+    text-transform: uppercase;
+    font-weight: 300;
     text-align: center;
     color: #000000;
     margin: 1.25rem;
@@ -308,11 +310,13 @@ footer {
 
 .about-text {
     text-align: justify;
-    margin: 0 1.25rem;
+    padding: 1.25rem 1.875rem;
+    /* margin: 0 1.875rem; */
 }
 
 .promo-video {
     margin: 0 auto;
+    margin-bottom: 1.875rem;
 }
 
 video:focus {
