@@ -348,8 +348,12 @@ video:focus {
 
 /* --------------------------------------Contact*/
 
+.visit-us-in-store {
+    padding: 1.25rem;
+}
 .shop-location-info {
     padding: 1.25rem;
+    margin: 0;
 }
 
 .shop-image, 
@@ -358,17 +362,21 @@ video:focus {
     border-radius: 1.5625rem;
 }
 
-.contact-email-adresses {
+.send-us-an-email {
     padding: 1.25rem;
 }
 
-.contact-email-adresses a {
+.contact-email-addresses {
+    padding: 1.25rem;
+}
+
+.contact-email-addresses a {
     text-decoration: none;
     color: #b71c1c;
 }
 
-.message-form {
-    padding: 1.25rem 0;
+.send-us-a-message {
+    padding-bottom: 1.25rem;
 }
 
 .form-group {
@@ -445,6 +453,7 @@ video:focus {
     width: 75%;
     }
 }
+
 
 
 
