@@ -422,14 +422,14 @@ video:focus {
     } 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
     #heroCarouselSm {
         /* visibility: hidden; */
         display: none;
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
     #heroCarousel {
         display: none;
     }
