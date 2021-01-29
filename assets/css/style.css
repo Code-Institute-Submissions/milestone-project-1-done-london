@@ -7,6 +7,7 @@
 
 /* --------------------------------------General paddings/margins/text */
 
+
 h1,
 h2,
 h3,
@@ -14,17 +15,29 @@ h4 {
     margin: 0;
 }
 
+.hero-image {
+    padding: 0 0.3125rem;
+}
+.hero-image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 /* -------------Headings */
 
 .heading {
     font-family: "p22_johnston_underground_regular", sans-serif;
     text-transform: uppercase;
-    font-weight: 700;
     text-align: center;
     color: #000000;
-    margin: 1.875rem 0.3125rem;
+    margin: 0.3125rem;
+    padding: 0;
     border: 0.0625rem solid black;
     background-color: #fff;
+}
+
+.heading h2 {
+    font-weight: 700;
 }
 
 .sub-heading {
