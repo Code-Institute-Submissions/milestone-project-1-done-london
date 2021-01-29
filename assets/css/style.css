@@ -25,7 +25,6 @@ h4 {
     margin: 1.875rem 0.3125rem;
     border: 0.0625rem solid black;
     background-color: #fff;
-    /* border: 1px solid black; */
 }
 
 .sub-heading {
@@ -349,7 +348,7 @@ video:focus {
 /* --------------------------------------Contact*/
 
 .visit-us-in-store {
-    padding: 1.25rem;
+    padding: 0 1.25rem;
 }
 .shop-location-info {
     padding: 1.25rem;

@@ -1,45 +1,155 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+![Done London logo](https://github.com/theopmw/milestone-project-1-done-london/blob/master/assets/images/done_boxlogo_lg.png?raw=true)
 
-Welcome theopmw,
+# DONE LONDON
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+A website for London based clothing brand - Done London.
+Website features a home page with a hero carousel promoting the brands clothing, a shop page where customers are able to browse and purchase clothing, an about page and a contact page.
+The primary goal of the website is to provide information about the brand and lead customers to make a purchase.
 
-## Gitpod Reminders
+The aim was for the website to ahve the fewest number of steps to the point of purchase.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The business goals of this website are:
+* Build brand awareness
+* Increase social media following
+* Showcase and promote the brands clothing
+* Drive sales
+* Lead visitors to the point of purchase in the fewest number of steps
+* Provide excellent UX to generate a positive emotional response from users
 
-`python3 -m http.server`
+The customer goals of this website are:
+* Find high quality well designed products
+* Clear and easy to find pricing
+* Simple and intuitive ordering process
+* Find information about the brand
 
-A blue button should appear to click: *Make Public*,
+## UX
 
-Another blue button should appear to click: *Open Browser*.
+### Ideal client
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+#### The ideal client for this business:
 
-A blue button should appear to click: *Make Public*,
+* Has disposable income.
+* Has interest in streetwear apparel.
 
-Another blue button should appear to click: *Open Browser*.
+#### When visiting this site, the aims of the visitor are:
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* To make a purchase for either themselves or as a gift.
+* To find out more about the brand.
 
-## Updates Since The Instructional Video
+#### This project is the best way to help them achieve these things because:
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* It provides a simple, positive UX.
+* It displays the brands product range and story in a clear, concise format
+* This website:
+    * Is easy to navigate.
+    * Steps the client through easy to understand, learnable information.
+    * Gives the client the information they need without overloading them.
+    * Guides the client to the goal of the website - to make a purchase.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Visitor stories
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+* First time Visitor goals:
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+    * As a First Time Visitor, I want to easily understand the purpose of the site.
+    * As a First Time Visitor, I want to be able to easily navigate the site.
+    * As a First Time Visitor, I want to be able to view the range of products on offer.
+    * As a First Time Visitor, I want to be able to easily find out more information about the company.
+    * As a First Time Visitor, I want to be able to easily locate thier social media links to gather more information.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+* Returning visitor goals:
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+    * As a Returning Visitor, I want to be able to quickly view the products on offer.
+    * As a Returning Visitor, I want to be able to make a purchase with the fewest steps possible.
+    * As a Returning Visitor, I want to find out about any new products on offer.
+    * As a Returning Visitor, I want to find the best way to contact the company with any questions or issues I may have.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+* Frequent visitor goals:
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+    * As a Fequent Visitor, I want to find out if there are any new products for sale.
+    * As a Fequent Visitor, I want to find out about any new releases coming up.
+    * As a Fequent Visitor, I want to be able to find out the latest news on what the company is doing.
+    * As a Fequent Visitor, I want to sign up to the Newsletter so I am kept up to date with products, news and promotions/sales direct to my inbox.
 
---------
+### Design
 
-Happy coding!
+* Colour Scheme
+
+    * The main colours used are black and white to keep the styling in line with the brand logo. As with similar sites, colours are kept to a minimum in oreder to put the focus on the products on offer. Red has been used to highlight buttons and links in order to draw attention to them.
+    
+* Typography
+
+    * P22 Johnston Underground is the main font used throughout the whole website with Sans Serif as the fallback font in case the font isn't being imported into the site correctly for any reason. P22 Johnston Underground was chosen as it is the font used in the Done London logo.
+    * Roboto is used as the secondary font as it is a clean, attractive font used frequently in programming that pairs well with the main font and provides a subtle point of difference to the typography of the website.
+
+* Imagery
+
+    * The imagery used is from a recent photo shoot and has been chosen to promote the brand and draws on the link with Transport for London and the brand from theie recent collaboration.
+
+* Wireframes
+
+## Features
+
+Each page features a responsive **navigation bar** with convetional placing of **logo** (top left) and navigation links in the top right. The navigation links reduce to a toggle menu at mobile size to improve UX.
+The **basket icon** is not currently functional as it is beyond the scope of this project but will be added at a later date (see "Features to Implement in Future" section below).
+Each page has a responsive **footer** with **join mailing list**, **copyright information** and **social media icons** linking to the brands social media pages. The join mailing list feature was removed on small and medium screen sizes so as not to clutter the UI.
+
+#### Home
+
+The Home page features a **hero image carousel** with navigation functionality displaying three images of models wearing the brands products. On mobile and tablet there are a set of three portrait images to better suit the screen size at these breakpoints, this is changed to landscape at the desktop size.
+There is a **call to action button** overalyed towards the bottom of the carousel to encourage visitors to **"Shop Now"** by guiding them to the **Shop page** to further explore the product range and direct them towards making a purchase.
+The purpose of this hero carousel element is to give maximum impact when arriving at the website and drive visitors towards the shop page.
+
+#### Shop
+
+The Shop page features a **shop heading** styled in a similar style to the navigation bar and inkeeping with the overall style and presentation of the website. 
+Below this are images of the range of products on offer. Each image is a link to the product page which will have a more detailed product description and information about sizing, ordering etc. (this functionality is beyond the scope of this project but is a feature that will be added at a later date - see "Features to Implement in Future" section below).
+Below the product image is a brief description of the product and below that is the price. Under the product image is an **"Add to basket"** button which will add the item to the visitors basket (this functionality is beyond the scope of this project but is a feature that will be added at a later date - see "Features to Implement in Future" section below).
+The Shop page is layed out in columns of **Bootstrap cards** with an image, supporting text and an "Add to basket" button, 2 columns wide for mobile devices and 4 columns wide for tablet and desktop.
+This design choice was made to give each individual product enough space to be viewed clearly by the visitor without overcrowding the UI or making links or buttons hard to press on mobile devices.
+
+#### About
+
+The About page features an **about heading** and is broken up into two sections with relevant sub-headings.
+First, the **"who we are"** section containing a brief **paragraph** explaining the brand history, ethos and who it has collaborated with in the past. This was taken from an article on https://www.theindustry.fashion/done-london-launches-tfl-collection-nsew/. It hasd been kept breif in order to satisfy curiosity without overwhelming the user.
+Below this is a short **promotional video** that engages the user and shows them more about where the brand takes its insparation from.
+Second, the **"press"** section contains **Bootstrap cards** with **thumbnail images and text** of recent press articles written about the brand. These contain an image of the sources logo, the headline and the first sentence, to give the viewer a idea of what the article is about. Below this is a **"See more >>"** button which will open the full article in a new tab.
+
+
+#### Contact
+
+the Contact page features an **contact heading** features four sub-headings detailing the various ways to conatcty the company.
+
+First, the **visit us in store** section provides the user with the **shop address**, a **Google Maps image** of the shops location and **two images of the shop interior**.
+
+
+Second, the **send us an email** section provides the user with the two email addresses for the business. One for shop enquiries and one for print enquiries. The email addresses are links to open up the users default mail app to assist in guiding them to make contact and are highlighted in red to grab attention.
+
+Third, the **send us a message** section features a **contact form**, which requests the clients name, email, and a box to add their message. At the bottom of the from is a **Send Button**.
+
+Finally, the **join our mailing list** section feaures a **paragraph element** explaining what clients gain from signing up to the mailing list and a **Join Mailing List Button** that launches a **Modal** which requests the clients name and email. Below this is a **Close Button** to close the modal and a **Submit** button to submit the request.
+
+### Existing Features
+
+* Header Logo - Exists on [every page] (../index.html) and allows users to eaily identify the business brand. Clicking the logo returns users to the home page as they would expect.
+* Header Navigation Bar - Exists on [every page] ../index.html) and allows users to easily navigate all pages of the website and easily find what they are looking for.
+* Footer Join Mailing List - Exists on [every page] (../index.html) and allows users to enter their email to sign up to the mailing list. This feature is only visible on desktop as it overcrowds the footer at smaller screen sizes.
+* Footer Copyright Info - Exists on [every page] (../index.html) and protects business copyright.
+* Footer Social Icons - Exists on [every page] (../index.html) and allows users to access the brands social media platforms.
+* [Hero Image Carousel] (index.html) - Allows potential clients to view examples of the brands products. Creates immediate connection and emmotional response.
+* [Call to Action Button] (index.html) - Guides potential clients towards the shop page via "Shop Now" button to lead them into making a purchase. Reduces steps to point of purchase.
+* [Shop Item Cards] (shop.html) - Lists items available for purchase in a clear grid view. Each card provides an image of the product, a brief description of the product, the products price and a button to add the product to basket.
+* [About Paragraph] (about.html) - Provides information about the brand without overloading the client with information.
+* [Promotional Video] (about.html) - Allows potential clients to connect with the brand, see what inspires their designs and get insight into a photo shoot. Creates connection and emmotional response.
+* [Press Links] (about.html) - Allows the client to learn more about the brand by reading about featured press articles.
+* [Contact Information] (contact.html) - Provides the client with all available methods to contact the company. This can be done by visiting the store, by email or by direct message.
+* [Join Mailing List] (contact.html) - Allows the client to sign up to the compaines mailing list to recieve information direct to their inbox.
+
+### Features to Implement in Future
+
+* GDPR compliant pop-up screen - Allows all new visitors to the website to approve or deny the processing of their personal data. Ensures the business complies with the EU data protection law. - Javascript Needed.
+* Add CAPTCHA to contact form - Allows business to protect the contact form from spam. - Javascript Needed.
+* Add buying functionality to allow clients to buy products.
+* Add links to more detailed product information when a product is clicked on shop.html.
+* Add Google Maps API to show more detailes store location information on contact.html.
+
+---------------------------
