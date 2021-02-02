@@ -43,11 +43,13 @@ h4 {
 .sub-heading {
     font-family: "p22_johnston_underground_regular", sans-serif;
     text-transform: uppercase;
-    font-weight: 300;
     text-align: center;
     color: #000000;
     margin: 1.25rem;
-    /* padding-bottom: 1.25rem; */
+}
+
+.sub-heading h4 {
+    font-weight: 300;
 }
 
 /* -------------Text */
@@ -322,13 +324,13 @@ footer {
 
 .about-text {
     text-align: justify;
-    padding: 1.25rem 1.875rem;
+    padding: 0 1.875rem;
     /* margin: 0 1.875rem; */
 }
 
 .promo-video {
     margin: 0 auto;
-    margin-bottom: 1.875rem;
+    margin-bottom: 0.3125rem;
 }
 
 video:focus {
@@ -345,18 +347,18 @@ video:focus {
 .press-card img {
     height: 6.25rem;
     width: 6.25rem;
-    /* margin-left: 9.25rem; */
-    margin-top: 1.5625rem;
+    margin-right: 0.625rem;
+    /* margin-top: 1.5625rem; */
     float: right;
 }
 
-/* .card-body {
-    margin: 0;
-} */
-
-.roudel-logo img {
-    margin-top: 1rem; 
+.card-body {
+    padding: 0;
 }
+
+/* .roudel-logo img {
+    margin-top: 1rem; 
+} */
 
 /* --------------------------------------Contact*/
 
@@ -368,10 +370,15 @@ video:focus {
     margin: 0;
 }
 
+.shop-map {
+    height: 100%;
+    width: 100%;
+}
+
 .shop-image, 
 .shop-map {
-    padding: 1.25rem;
-    border-radius: 1.5625rem;
+    /* padding: 1.25rem; */
+    border-radius: 1.25rem;
 }
 
 .send-us-an-email {
@@ -406,9 +413,6 @@ video:focus {
     padding: 1.25rem;
 }
 
-
-
-
 /* --------------------------------------Media Queries */
 
 @media screen and (min-width: 768px) {
@@ -442,24 +446,28 @@ video:focus {
     }
 }
 
-@media screen and (max-width: 991px) {
-    #heroCarousel {
-        display: none;
-    }
-
-
-    
+@media screen and (max-width: 767px) {
     .press-card {
         text-align: center;
     }
 
+    .card-img {
+        padding-bottom: 0.625rem;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #heroCarousel {
+        display: none;
+    }
+/* 
     .press-card img {
         float: none;
     }
 
     .shop-image {
         display: none;
-    }
+    } */
 
     .form-group {
     width: 75%;
