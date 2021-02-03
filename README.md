@@ -119,7 +119,7 @@ This design choice was made to give each individual product enough space to be v
 #### About
 
 The About page features a **hero image** followed by an **about heading** and is broken up into two sections with relevant **sub-headings**.
-First, the **"who we are"** section containing a brief **paragraph** explaining the brand history, ethos and who it has collaborated with in the past. This was taken from an article on https://www.theindustry.fashion/done-london-launches-tfl-collection-nsew/. It hasd been kept breif in order to satisfy curiosity without overwhelming the user.
+First, the **"who we are"** section containing a brief **paragraph** explaining the brand history, ethos and who it has collaborated with in the past. This was taken from an article on [The Industry.Fashion](https://www.theindustry.fashion/done-london-launches-tfl-collection-nsew/) website. It has been kept breif in order to satisfy curiosity without overwhelming the user.
 Below this is a short **promotional video** that engages the user and shows them more about where the brand takes its insparation from.
 Second, the **"press"** section contains **Bootstrap cards** with **thumbnail images and text** of recent press articles written about the brand. These contain an image of the sources logo, the headline and the first sentence, to give the viewer a idea of what the article is about. Below this is a **"See more >>"** button which will open the full article in a new tab.
 

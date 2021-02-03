@@ -456,10 +456,9 @@ video:focus {
 }
 
 @media screen and (min-width: 992px) {
-    #heroCarouselSm {
-        /* visibility: hidden; */
+    /* #heroCarouselSm {
         display: none;
-    }
+    } */
 
     .press-image-container {
         text-align: center;
@@ -478,9 +477,9 @@ video:focus {
 }
 
 @media screen and (max-width: 991px) {
-    #heroCarousel {
+    /* #heroCarousel {
         display: none;
-    }
+    } */
 /* 
     .press-card img {
         float: none;
