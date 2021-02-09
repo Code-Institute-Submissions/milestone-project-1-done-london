@@ -88,7 +88,15 @@ h4 {
 
 .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
     box-shadow: none;
+    background-color: #7f0000;
+    border-color: #7f0000;
 }
+
+/* .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #7f0000;
+    border-color: #7f0000;
+} */
 
 .btn-secondary {
     color: #b71c1c;
@@ -262,7 +270,7 @@ footer {
 /* --------------------------------------Home Page Carousel */
 
 .carousel-container {
-    margin: 1.25rem 0.3125rem;
+    margin: 0.3125rem;
 }
 
 .carousel-button {

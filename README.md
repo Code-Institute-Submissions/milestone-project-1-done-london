@@ -32,6 +32,7 @@ The customer goals of this website are:
 
 * Has disposable income.
 * Has interest in casual streetwear apparel.
+* Lives in London (but can be anywhere in the world)
 
 #### When visiting this site, the aims of the visitor are:
 
@@ -196,7 +197,7 @@ Detailed testing information can be found in separate [TESTING.md file](TESTING.
 
 * [Bootstrap4](https://getbootstrap.com/): Bootstrap Library used throughout the project mainly for the Bootstrap Grid System and to make the site responsive but also for certain Bootstrap Components.
     * Template for multi-image carousel on [Home page](home.html) taken from [Bootstrap4](https://getbootstrap.com/docs/4.5/components/carousel/) and modified to suit the needs of the site.
-    * [Bootstrap4 display properties](https://getbootstrap.com/docs/4.0/getting-started/introduction/) were used to show/hide different carousels at different breakpoints.
+    * [Bootstrap4 display properties](https://getbootstrap.com/docs/4.0/getting-started/introduction/) were used to show/hide different carousels at different breakpoints on [Home page](home.html) and to hide the shop images on xs/sm screen sizes on [Contact page](contact.html).
     * Template for cards used on [Shop page](shop.html) and [About page](about.html) taken from [Bootstrap4](https://getbootstrap.com/docs/4.1/components/card/) and modified to suit the needs of the site.
     * Template for modal used on [Contact page](contact.html) taken from [Bootstrap4](https://getbootstrap.com/docs/4.5/components/modal/) and modified to suit the needs of the site.
 * Favicon in the HTML head taken from [DONE LONDON](https://donelondon.co.uk/) website.
