@@ -31,7 +31,7 @@ h4 {
     text-align: center;
     color: #000000;
     margin: 0.3125rem;
-    padding: 0;
+    padding: 0.875rem;
     border: 0.0625rem solid black;
     background-color: #fff;
 }
@@ -380,10 +380,6 @@ video:focus {
 .card-body {
     padding: 0;
 }
-
-/* .roudel-logo img {
-    margin-top: 1rem; 
-} */
 
 /* --------------------------------------Contact*/
 
