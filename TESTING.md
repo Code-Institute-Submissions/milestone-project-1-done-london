@@ -22,7 +22,7 @@ The most common path through the website:
     * The Home page features a **call to action button**, leading the user to the **Shop page**. This is also achievable using the **navigation bar** situated at the top of every page.
     * The About and Contact pages are not necessarily part of the flow of the site for all users but have been included to offer information about the company and how to contact them for users that are interested. All information is kept brief to avoid overloading the user.
 
-### Testing User Stories From UX ection of README.md:
+### Testing User Stories From UX Section of README.md:
 
 #### First time User Goals:
 
