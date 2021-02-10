@@ -102,6 +102,15 @@ The most common path through the website:
 * Images not loading in Github Pages 
     * When the site was originally deployed to Github Pages, the images failed to load despite working in the development version. This was fixed by changing the file paths for images from "src="/assets/images" to "src="assets/images". This was achieved by removing the leading "/" using find & replace in GitPod.
 
+* Hero carousel images on index.html not fitting all screen sizes with space for header and footer
+    * Applied the following styling as suggested by mentor:
+    ```
+    .hero-carousel-image {
+    height: calc(100vh - 158px);
+    object-fit: cover;
+    }
+    ```
+
 * Video not loading in Github Pages
     * Similar issue to the above, the video failed to load despite working in the development version. This was fixed by changing the file path for the video from "src="/assets/video" to "src="assets/video". This was achieved by removing the leading "/" using find & replace in GitPod.
 
