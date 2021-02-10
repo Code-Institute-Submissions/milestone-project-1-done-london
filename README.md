@@ -4,14 +4,14 @@
 
 A website for London based clothing brand - Done London.
 Website features a home page with a hero carousel promoting the brands clothing, a shop page where customers are able to browse and purchase clothing, an about page and a contact page.
-The primary goal of the website is to provide information about the brand and lead customers to make a purchase.
+The primary goal of the website is to lead customers to make a purchase, to provide information about the brand and ways in which to make contact with the compamy.
 
-The aim was for the website to ahve the fewest number of steps to the point of purchase.
+The aim was for the website to have the fewest number of steps to the point of purchase.
 
 The business goals of this website are:
 * Build brand awareness
 * Increase social media following
-* Showcase and promote the brands clothing
+* Showcase and promote the brands' clothing
 * Drive sales
 * Lead visitors to the point of purchase in the fewest number of steps
 * Provide excellent UX to generate a positive emotional response from users
@@ -21,6 +21,7 @@ The customer goals of this website are:
 * Clear and easy to find pricing
 * Simple and intuitive ordering process
 * Find information about the brand
+* Find information about how to contact the company
 
 ## UX
 
@@ -32,7 +33,7 @@ The customer goals of this website are:
 
 * Has disposable income.
 * Has interest in casual streetwear apparel.
-* Lives in London (but can be anywhere in the world)
+* Lives in London (but can be anywhere in the world).
 
 #### When visiting this site, the aims of the visitor are:
 
@@ -52,31 +53,30 @@ The customer goals of this website are:
     * Gives the client the information they need without overloading them.
     * Guides the client to the goal of the website - to make a purchase.
 
+### User stories:
 
+* First Time User goals:
 
-### Visitor stories
+    * As a First Time User, I want to easily understand the purpose of the site.
+    * As a First Time User, I want to be able to easily navigate the site.
+    * As a First Time User, I want to be able to view the range of products on offer.
+    * As a First Time User, I want to be able to easily find out more information about the company.
+    * As a First Time User, I want to be able to easily locate thier social media links to gather more information.
 
-* First time Visitor goals:
+* Returning User goals:
 
-    * As a First Time Visitor, I want to easily understand the purpose of the site.
-    * As a First Time Visitor, I want to be able to easily navigate the site.
-    * As a First Time Visitor, I want to be able to view the range of products on offer.
-    * As a First Time Visitor, I want to be able to easily find out more information about the company.
-    * As a First Time Visitor, I want to be able to easily locate thier social media links to gather more information.
+    * As a Returning User, I want to be able to quickly view the products on offer.
+    * As a Returning User, I want to be able to make a purchase with the fewest steps possible.
+    * As a Returning User, I want to find out about any new products on offer.
+    * As a Returning User, I want to find the best way to contact the company with any questions or issues I may have.
 
-* Returning visitor goals:
+* Frequent User goals:
 
-    * As a Returning Visitor, I want to be able to quickly view the products on offer.
-    * As a Returning Visitor, I want to be able to make a purchase with the fewest steps possible.
-    * As a Returning Visitor, I want to find out about any new products on offer.
-    * As a Returning Visitor, I want to find the best way to contact the company with any questions or issues I may have.
-
-* Frequent visitor goals:
-
-    * As a Fequent Visitor, I want to find out if there are any new products for sale.
-    * As a Fequent Visitor, I want to find out about any new releases coming up.
-    * As a Fequent Visitor, I want to be able to find out the latest news on what the company is doing.
-    * As a Fequent Visitor, I want to sign up to the Newsletter so I am kept up to date with products, news and promotions/sales direct to my inbox.
+    * As a Fequent User, I want to sign up to the Newsletter so I am kept up to date with products, news and promotions/sales direct to my inbox.
+    * As a Fequent User, I want to find out if there are any new products for sale.
+    * As a Fequent User, I want to find out about any new releases coming up.
+    * As a Fequent User, I want to be able to find out the latest news on what the company is doing.
+    
 
 ### Design
 
@@ -91,7 +91,7 @@ The customer goals of this website are:
 
 * Imagery
 
-    * The imagery used is from a recent photo shoot and has been chosen to promote the brand and draws on the link with Transport for London and the brand from theie recent collaboration.
+    * The imagery used is from a recent photo shoot and has been chosen to promote the brand and draws on the link with Transport for London and the brand from their recent collaboration.
 
 * Wireframes
 
@@ -99,7 +99,7 @@ The customer goals of this website are:
 
 ---
 
-Each page features a responsive **navigation bar** with convetional placing of **logo** (top left) and navigation links in the top right. The navigation links reduce to a toggle menu at mobile size to improve UX.
+Each page features a responsive **navigation bar** with conventional placing of **logo** (top left) and navigation links in the top right. The navigation links reduce to a toggle menu at mobile size to improve UX.
 The **basket icon** is not currently functional as it is beyond the scope of this project but will be added at a later date (see "Features to Implement in Future" section below).
 Each page has a responsive **footer** with **join mailing list**, **copyright information** and **social media icons** linking to the brands social media pages. The join mailing list feature was removed on small and medium screen sizes so as not to clutter the UI.
 
@@ -185,10 +185,43 @@ Finally, the **join our mailing list** section feaures a **paragraph element** e
 Detailed testing information can be found in separate [TESTING.md file](TESTING.md).
 
 ## Deployment
-
 ---
 
-### How to run this project locally
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps:
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/theopmw/milestone-project-1-done-london)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. Another dropdown will appear to the right, Select "/(root)" in this dropdown.
+6. Then click Save.
+7. The page will then refresh.
+8. Scroll back down through the page to locate the now published [site link](https://theopmw.github.io/milestone-project-1-done-london/) in the "GitHub Pages" section.
+
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/theopmw/milestone-project-1-done-london)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/theopmw/milestone-project-1-done-london).
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type "git clone", and then paste the URL you copied in Step 3:
+
+```
+$ git clone https://github.com/theopmw/milestone-project-1-done-london
+```
+
+7. Press Enter and your local clone will be created.
 
 ## Credits
 ---
