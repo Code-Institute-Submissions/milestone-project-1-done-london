@@ -8,6 +8,8 @@ The primary goal of the website is to lead customers to make a purchase, to prov
 
 The aim was for the website to have the fewest number of steps to the point of purchase.
 
+## Goals
+
 The business goals of this website are:
 * Build brand awareness
 * Increase social media following
@@ -42,7 +44,7 @@ The customer goals of this website are:
 #### This project is the best way to help them achieve these things because:
 
 * It provides a simple, positive UX.
-* It displays the brands product range and story in a clear, concise format
+* It displays the brands product range and story in a clear, concise format.
 * It provides multiple routes to contact the brand depending on the preferences of the user.
 * It provides an easy way to join the companies mailing list to stay up to date with company news and developments.
 * This website:
