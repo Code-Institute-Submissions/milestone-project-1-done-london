@@ -265,7 +265,14 @@ footer {
 
 .carousel-container {
     margin: 0.3125rem;
+    
 }
+
+.hero-carousel-image {
+    height: calc(100vh - 158px);
+    object-fit: cover;
+}
+
 
 .carousel-button {
     position: absolute;
