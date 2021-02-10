@@ -210,11 +210,10 @@ header {
 footer {
     margin: 0;
     background-color: #fff;
-    /* height: 15vh; */
 }
 
 #footer-row {
-    height: 4.25rem;
+    /* height: 4.25rem; */
     border: solid 0.0625rem;
     margin: 0.3125rem;
 }
@@ -269,7 +268,7 @@ footer {
 }
 
 .hero-carousel-image {
-    height: calc(100vh - 158px);
+    height: calc(100vh - 180px);
     object-fit: cover;
 }
 
