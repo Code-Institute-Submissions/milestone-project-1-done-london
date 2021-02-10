@@ -25,8 +25,6 @@ The customer goals of this website are:
 
 ## UX
 
----
-
 ### Ideal client
 
 #### The ideal client for this business:
@@ -97,8 +95,6 @@ The customer goals of this website are:
 
 ## Features
 
----
-
 Each page features a responsive **navigation bar** with conventional placing of **logo** (top left) and navigation links in the top right. The navigation links reduce to a toggle menu at mobile size to improve UX.
 The **basket icon** is not currently functional as it is beyond the scope of this project but will be added at a later date (see "Features to Implement in Future" section below).
 Each page has a responsive **footer** with **join mailing list**, **copyright information** and **social media icons** linking to the brands social media pages. The join mailing list feature was removed on small and medium screen sizes so as not to clutter the UI.
@@ -123,7 +119,6 @@ The About page features a **hero image** followed by an **about heading** and is
 First, the **"who we are"** section containing a brief **paragraph** explaining the brand history, ethos and who it has collaborated with in the past. This was taken from an article on [The Industry.Fashion](https://www.theindustry.fashion/done-london-launches-tfl-collection-nsew/) website. It has been kept breif in order to satisfy curiosity without overwhelming the user.
 Below this is a short **promotional video** that engages the user and shows them more about where the brand takes its insparation from.
 Second, the **"press"** section contains **Bootstrap cards** with **thumbnail images and text** of recent press articles written about the brand. These contain an image of the sources logo, the headline and the first sentence, to give the viewer a idea of what the article is about. Below this is a **"See more >>"** button which will open the full article in a new tab.
-
 
 #### Contact
 
@@ -159,8 +154,6 @@ Finally, the **join our mailing list** section feaures a **paragraph element** e
 
 ## Technologies Used
 
----
-
 ### Languages Used
 
 * HTML
@@ -180,12 +173,10 @@ Finally, the **join our mailing list** section feaures a **paragraph element** e
 * [Balsamiq](https://balsamiq.com/) - **Balsamiq** was used to create the wireframes during the design process.
 
 ## Testing
----
 
 Detailed testing information can be found in separate [TESTING.md file](TESTING.md).
 
 ## Deployment
----
 
 ### GitHub Pages
 
@@ -224,17 +215,15 @@ $ git clone https://github.com/theopmw/milestone-project-1-done-london
 7. Press Enter and your local clone will be created.
 
 ## Credits
----
 
 ### Code
 
 * [Bootstrap4](https://getbootstrap.com/): Bootstrap Library used throughout the project mainly for the Bootstrap Grid System and to make the site responsive but also for certain Bootstrap Components.
     * Template for multi-image carousel on [Home page](home.html) taken from [Bootstrap4](https://getbootstrap.com/docs/4.5/components/carousel/) and modified to suit the needs of the site.
-    * [Bootstrap4 display properties](https://getbootstrap.com/docs/4.0/getting-started/introduction/) were used to show/hide different carousels at different breakpoints on [Home page](home.html) and to hide the shop images on xs/sm screen sizes on [Contact page](contact.html).
+    * [Bootstrap4 display properties](https://getbootstrap.com/docs/4.0/utilities/display/) were used to show/hide different carousels at different breakpoints on [Home page](home.html) and to hide the shop images on xs/sm screen sizes on [Contact page](contact.html).
     * Template for cards used on [Shop page](shop.html) and [About page](about.html) taken from [Bootstrap4](https://getbootstrap.com/docs/4.1/components/card/) and modified to suit the needs of the site.
     * Template for modal used on [Contact page](contact.html) taken from [Bootstrap4](https://getbootstrap.com/docs/4.5/components/modal/) and modified to suit the needs of the site.
 * Favicon in the HTML head taken from [DONE LONDON](https://donelondon.co.uk/) website.
-
 
 ### Content
 
@@ -250,13 +239,6 @@ $ git clone https://github.com/theopmw/milestone-project-1-done-london
 * Inspiration for this site came from the work of DONE LONDON and the layout and deign of similar clothing sites including [ASOS](https://www.asos.com/) and [End](https://www.endclothing.com/).
 * Thanks to my Code Institute Mentor, Akshat Garg, for continuous feedback and support.
 
-
 ### Diclaimer
 
 All content on this site was developed for educational purposes only.
-
-
-
-
-
----------------------------
