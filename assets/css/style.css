@@ -295,6 +295,10 @@ footer {
     margin-bottom: 2.5rem;
 }
 
+.no-gutters>.col, .no-gutters>[class*=col-] {
+    padding: 0.625rem;
+}
+
 .card {
     border: none;
 }
