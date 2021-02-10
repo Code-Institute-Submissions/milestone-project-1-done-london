@@ -111,6 +111,16 @@ The most common path through the website:
     }
     ```
 
+* Hero images too large on larger screen sizes
+    * Applied the following sizing as suggested by mentor:
+    ```
+    .hero-image img {
+    width: 100%;
+    max-height: 70vh;
+    object-fit: cover;
+    }
+    ```
+
 * Video not loading in Github Pages
     * Similar issue to the above, the video failed to load despite working in the development version. This was fixed by changing the file path for the video from "src="/assets/video" to "src="assets/video". This was achieved by removing the leading "/" using find & replace in GitPod.
 
