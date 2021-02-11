@@ -198,12 +198,16 @@ footer {
 
 /* -------------Mailing List */
 
-.mailing-list-footer {
+.footer-mailing-list {
     padding-top: 0.1875rem;
     padding-left: 0.9375rem !important;
 }
 
-.mailing-list-footer label {
+.footer-mailing-list-text {
+    padding-left: 0.375rem;
+}
+
+.footer-mailing-list label {
     font-size: 0.937rem;
 }
 
@@ -448,17 +452,10 @@ video:focus {
      .carousel-button {
     bottom: 6%;
     } 
-}
 
-@media screen and (min-width: 992px) {
-    /* #heroCarouselSm {
-        display: none;
-    } */
-
-    .press-image-container {
+        .press-image-container {
         text-align: center;
     }
-    
 }
 
 @media screen and (max-width: 767px) {
@@ -472,18 +469,6 @@ video:focus {
 }
 
 @media screen and (max-width: 991px) {
-    /* #heroCarousel {
-        display: none;
-    } */
-/* 
-    .press-card img {
-        float: none;
-    }
-
-    .shop-image {
-        display: none;
-    } */
-
     .form-group {
     width: 75%;
     }
