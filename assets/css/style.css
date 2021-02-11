@@ -433,6 +433,11 @@ video:focus {
     .about-text {
         padding: 0 2.5rem; 
     }
+
+    .press-card {
+        padding: 0 2.5rem;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
