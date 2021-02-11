@@ -204,7 +204,8 @@ footer {
 }
 
 .footer-mailing-list-text {
-    padding-left: 0.375rem;
+    padding: 0.3125rem 0 0 0.375rem;
+    /* padding-left: 0.375rem; */
 }
 
 .footer-mailing-list label {
@@ -225,6 +226,7 @@ footer {
 .social-links {
     text-align: center;
     line-height: 4.25rem;
+    padding-top: 0.3125rem;
     padding-right: 0.9375rem !important;
     margin: 0;
 }
@@ -378,7 +380,6 @@ video:focus {
 .contact-image, 
 .contact-map {
     padding: 1.25rem;
-
 }
 
 .send-us-an-email {
@@ -386,9 +387,7 @@ video:focus {
 }
 
 .contact-email-addresses {
-    padding-top: 1.25rem;
-    padding-right: 1.25rem;
-    padding-left: 1.25rem;
+    padding: 1.25rem 1.25rem 0 1.25rem;
 }
 
 .contact-email-addresses a {
