@@ -427,7 +427,11 @@ video:focus {
     }
 
     .press-card-title {
-    margin: 0;
+        margin: 0;
+    }
+
+    .about-text {
+        padding: 0 2.5rem; 
     }
 }
 
