@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 @font-face {
     font-family: "P22 Johnston Underground";
-    src: url("../fonts/p22_johnston_underground_regular.ttf")
+    src: url("../fonts/p22_johnston_underground_regular.ttf");
 }
 
 /* --------------------------------------General paddings/margins/text */
-
 
 h1,
 h2,
@@ -82,14 +81,17 @@ h4 {
     background-color: #7f0000;
 }
 
-.btn-primary.focus, .btn-primary:focus  {
+.btn-primary.focus,
+.btn-primary:focus {
     color: #fff;
-    background-color: #7f0000 ;
+    background-color: #7f0000;
     border-color: #7f0000;
     box-shadow: none;
 }
 
-.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
     box-shadow: none;
     background-color: #7f0000;
     border-color: #7f0000;
@@ -108,7 +110,9 @@ h4 {
     border: none;
 }
 
-.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show > .btn-secondary.dropdown-toggle {
     color: #b71c1c;
     background-color: #fff;
     border: none;
@@ -117,8 +121,6 @@ h4 {
 /* --------------------------------------Colours */
 
 /* --------------------------------------Backgrounds */
-
-
 
 /* --------------------------------------Header */
 
@@ -167,7 +169,6 @@ header {
     color: #b71c1c;
 } */
 
-
 /* .navbar-toggler-icon {
     color: #000000;
     border: none;
@@ -191,7 +192,6 @@ footer {
 }
 
 #footer-row {
-    /* height: 4.25rem; */
     border: solid 0.0625rem;
     margin: 0.3125rem;
 }
@@ -241,14 +241,12 @@ footer {
 
 .carousel-container {
     margin: 0.3125rem;
-    
 }
 
 .hero-carousel-image {
     height: calc(100vh - 180px);
     object-fit: cover;
 }
-
 
 .carousel-button {
     position: absolute;
@@ -267,7 +265,8 @@ footer {
     margin-bottom: 2.5rem;
 }
 
-.no-gutters>.col, .no-gutters>[class*=col-] {
+.no-gutters > .col,
+.no-gutters > [class*="col-"] {
     padding: 0.625rem;
 }
 
@@ -334,7 +333,6 @@ video:focus {
     margin: 0 auto;
     float: none;
     margin-bottom: 10px;
-
 }
 
 .press-card img {
@@ -377,7 +375,7 @@ video:focus {
     width: 100%;
 }
 
-.contact-image, 
+.contact-image,
 .contact-map {
     padding: 1.25rem;
 }
@@ -434,25 +432,24 @@ video:focus {
     }
 
     .about-text {
-        padding: 0 2.5rem; 
+        padding: 0 2.5rem;
     }
 
     .press-card {
         padding: 0 2.5rem;
     }
-
 }
 
 @media screen and (min-width: 992px) {
     .social-links {
-    text-align: right;
+        text-align: right;
     }
 
-     .carousel-button {
-    bottom: 6%;
-    } 
+    .carousel-button {
+        bottom: 6%;
+    }
 
-        .press-image-container {
+    .press-image-container {
         text-align: center;
     }
 }
@@ -469,10 +466,6 @@ video:focus {
 
 @media screen and (max-width: 991px) {
     .form-group {
-    width: 75%;
+        width: 75%;
     }
 }
-
-
-
-
