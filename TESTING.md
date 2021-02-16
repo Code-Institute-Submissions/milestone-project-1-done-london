@@ -80,13 +80,127 @@ The most common path through the website:
 
 #### Home Page:
 
+1. Navigation Bar:
+    1. Go to the Home page on a desktop.
+    2. Reduce screen size to mobile to confirm that the navigation bar is responsive and switches from in-line menu to navbar toggler/burger icon dropdown at the appropriate place.
+    3. When reducing screensize check that there is no overflow or overlap of menu items and that they always look appropraitely spaced.
+    4. Check that the Home menu item is the active page and the navbar shows this - Home should be highlighted in black.
+    5. Hover over other menu items to confirm they change colour from light grey to dark grey.
+    6. Click on the logo to top left of navigation bar to confirm that it links to the home page.
+    7. Click on each navigation menu item to confirm that it links to the correct page.
+    8. Change screen size to mobile, click burger icon and confirm that menu drops down and menu items are positioned correctly.
+    9. Repeat confirmation of responsiveness and functionality on different browsers.
+    10. Repeat confirmation of responsiveness and functionality on tablet and mobile devices.
+
+2. Hero Carousel:
+    1. Go to the Home page on a desktop.
+    2. Confirm carousel is visible and images scroll correctly.
+    3. Check that header, carousel and footer take up the full viewport.
+    3. Reduce screen size to confirm images change when reduced to tablet size.
+    4. Reduce and enlarge size of window to confirm that "Shop Now" call to action button responds correctly.
+    5. Click Hero Carousel controls to ensure they work on all screen sizes.
+    6. Hover over "Shop Now" call to action button to confirm colour transition is correct.
+    7. Click "Shop Now" call to action button to ensure it links to the shop page.
+
+3. Footer:
+    1. Confirm that Join Mailing List section works and "Submit" button colour transition on hover is correct - Note mailing list functionality is beyond the scope of this project and this feature will be added in at a later date.
+    2. Click on each social media icon to confrim it links to the correct page and opens in a new tab.
+    3. Reduce screen size to confrim that on tablet and mobile devices, the footer changes correctly to shop only social icons and copyright information.
+
+7. Review and confirm responsiveness and funtionality on different browsers.
+
+8. Review and confirm responsiveness and funtionality on tablet and mobile devices.
+
 #### Shop Page:
+
+1. Navigation Bar:
+    1. Repeat varification steps for Navigation Bar as completed on Home page.
+    2. Confirm Navigation Bar code is identical on every page of site.
+
+2. Hero Image:
+    1. Reduce and expand window size to ensure the hero image behaves as it is expected and looks good on all screen sizes.
+    2. Hover over image in Developer Tools to ensure correct alt text attribute is correct and descriptive.
+    2. Check Hero Image on tablet and mobile devices.
+
+3. Shop Items:
+    1. Reduce screen size to ensure that shop items behave as expected when on moblile devices - from 4 items per row to 2 items per row.
+    2. Hover over each image in Developer Tools to ensure correct alt text attribute is correct and descriptive.
+    3. Check all shop items have correct title and pricing and these respond as expected on all screen sizes and devices.
+    4. Click each shop item image to confirm this is a link back to the shop page - This will be changed to link to a bespoke item page in the future but is currently beyond the scope of this project.
+    5. Hover over all "Add to basket" buttons to confirm colour transition is correct - Note cart funtionality is beyond the scope of this project but this feature will be added in the future.
+
+4. Repeat steps performed to confirm footer responsiveness and funtionality on Home page.
+
+5. Review and confirm responsiveness and funtionality on different browsers.
+
+6. Review and confirm responsiveness and funtionality on tablet and mobile devices.
 
 #### About Page:
 
+1. Navigation Bar:
+    1. Repeat varification steps for Navigation Bar as completed on Home page.
+    2. Confirm Navigation Bar code is identical on every page of site.
+
+2. Hero Image:
+    1. Repeat varification steps for Hero Image as completed on Shop page.
+
+3. Who We Are Section:
+    1. Reduce and expand window to confirm about text behaves as expected on all screen sizes and devices.
+
+4. Promo Video:
+    1. Confirm video is visible on all screen sizes and devices, sizing behaves as expected and requires the user to click play in order to play the video (autoplay is disabled).
+    2. Reduce and expand window to confirm promo video behaves as expected on all screen sizes and devices.
+
+5. Press Section:
+    1. Reduce and expand screen size to confrim text is center aligned on mobile and aligns left on tablet and desktop and each press article/link behaves as expected.
+    2. Hover over "See more >>" buttons to confirm colour transition is correct.
+    3. Click each link to confirm the correct link opens in a new tab.
+
+6. Repeat varification steps performed on Home page to confirm footer responsiveness and funtionality.
+
+7. Review and confirm responsiveness and funtionality on different browsers.
+
+8. Review and confirm responsiveness and funtionality on tablet and mobile devices.
+
 #### Contact Page:
 
+1. Navigation Bar:
+    1. Repeat varification steps for Navigation Bar as completed on Home page.
+    2. Confirm Navigation Bar code is identical on every page of site.
 
+2. Hero Image:
+    1. Repeat varification steps for Hero Image as completed on Shop page.
+
+3. Visit Is In Store Section:
+    1. Reduce and expand window to confirm sub-heading and text behave as expected on all screen sizes and devices.
+
+4. Shop Images and Map:
+    1. Reduce and expand window to confirm images and map behave as expected.
+    2. Reduce screen size to confirm only map image is shown on mobile - Google maps API to be added here in future but is currently beyond the scope of this project.
+
+5. Send Us An Email Section:
+    1. Reduce and expand window to confirm sub-heading and text behave as expected on all screen sizes and devices.
+    2. Hover over email addresses to confirm colour transition is correct.
+    3. Click each email address to confirm links work correctly.
+
+6. Send Us A Message Section:
+    1. Reduce and expand window to confirm sub-heading and from behave as expected.
+    2. Fill in form to ensure it works correctly - Form submit funtionality is beyond the scope of this project but will be added at a later date. 
+    3. Hover over "Send" button to confirm colour transition is correct.
+
+7. Join Our Mailing List Section
+    1. Reduce and expand window to confirm sub-heading and text behave as expected.
+    2. Hover over "Join Mailing List" button to confirm colour transition is correct.
+    3. Click "Join Mailing List" button to launch modal.
+    4. Input email address into modal - Note mailing list functionality is beyond the scope of this project and this feature will be added in at a later date.
+    5. Hover over "Join Mailing List" button to confirm colour transition is correct.
+    6. Hover over "Close" button to confirm colour transition is correct and that it closes the modal pop-up.
+
+8. Repeat varification steps performed on Home page to confirm footer responsiveness and funtionality.
+
+9. Review and confirm responsiveness and funtionality on different browsers.
+
+10. Review and confirm responsiveness and funtionality on tablet and mobile devices.
 
 ### Bugs
 

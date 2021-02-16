@@ -278,42 +278,13 @@ footer {
     margin-bottom: 0.3125rem;
 }
 
-/* .card-body {
-    margin-bottom: 2.5rem;
-} */
-
-/* .shopcontainer {
-}
-
-.shopcontainer img {
-    height: 10rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    clear: both;
-}
-
-.shopcontainer p {
-    text-align: center;
-}
-.shopitem {
-}
-
-.product-description {
-    font-weight: 600;
-    margin-bottom: 0;
-} */
-
 /* --------------------------------------About */
 
 .about-text {
     text-align: justify;
-    /* padding: 0 1.875rem; */
-    /* margin: 0 1.875rem; */
 }
 
 .promo-video-container {
-    /* padding: 1.25rem; */
     padding-bottom: 0.3125rem;
 }
 
@@ -365,10 +336,6 @@ video:focus {
     border: 0.0625rem solid black;
     margin: 0 0.3125rem;
 }
-
-/* .shop-image-container, .shop-image-col {
-    padding: 0 !important;
-} */
 
 .contact-map {
     height: 100%;
