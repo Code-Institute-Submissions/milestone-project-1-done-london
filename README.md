@@ -4,7 +4,7 @@
 
 A website for London based clothing brand - Done London.
 Website features a home page with a hero carousel promoting the brands clothing, a shop page where customers are able to browse and purchase clothing, an about page and a contact page.
-The primary goal of the website is to lead customers to make a purchase, to provide information about the brand and ways in which to make contact with the compamy.
+The primary goal of the website is to lead customers to make a purchase, to provide information about the brand and ways in which to make contact with the company. It is designed to be responsive and accessible on all devices, making it easy for uses to make a purchase, find out more information about the company and contact the company with any questions or queries they may have.
 
 The aim was for the website to have the fewest number of steps to the point of purchase.
 
@@ -49,9 +49,9 @@ The customer goals of this website are:
 * It provides an easy way to join the companies mailing list to stay up to date with company news and developments.
 * This website:
     * Is easy to navigate.
-    * Steps the client through easy to understand, learnable information.
-    * Gives the client the information they need without overloading them.
-    * Guides the client to the goal of the website - to make a purchase.
+    * Leads the user through easy to understand, learnable information.
+    * Gives the user the information they need without overloading them.
+    * Guides the user to the goal of the website - to make a purchase.
 
 ### User stories:
 
@@ -77,12 +77,11 @@ The customer goals of this website are:
     * As a Fequent User, I want to find out about any new releases coming up.
     * As a Fequent User, I want to be able to find out the latest news on what the company is doing.
     
-
 ### Design
 
 * Colour Scheme
 
-    * The main colours used are black and white to keep the styling in line with the brand logo. As with similar sites, colours are kept to a minimum in oreder to put the focus on the products on offer. Red has been used to highlight buttons and links in order to draw attention to them.
+    * The main colours used are black and white to keep the styling in line with the brand logo. As with similar sites, colours are kept to a minimum in order to put the focus on the products on offer. Red (#b71c1c) has been used to highlight buttons and links in order to draw attention to them. A darker red (#7f0000) has been used to accent buttons when hovered over to prived a boit of difference and positive UX.
     
 * Typography
 
@@ -150,8 +149,9 @@ Finally, the **join our mailing list** section feaures a **paragraph element** e
 
 * GDPR compliant pop-up screen - Allows all new visitors to the website to approve or deny the processing of their personal data. Ensures the business complies with the EU data protection law. - Javascript Needed.
 * Add CAPTCHA to contact form - Allows business to protect the contact form from spam. - Javascript Needed.
-* Add buying functionality to allow clients to buy products.
-* Add links to more detailed product information when a product is clicked on shop.html.
+* Add buying/shopping cart functionality to allow clients to buy products.
+* Add mailing list funtionality.
+* Add links to more detailed product information and size selection when a product is clicked on shop.html.
 * Add Google Maps API to show more detailes store location information on contact.html.
 
 ## Technologies Used
