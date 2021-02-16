@@ -70,6 +70,11 @@ h4 {
 
 /* -------------Buttons */
 
+.btn:focus {
+    border: none;
+    box-shadow: none;
+}
+
 .btn-primary {
     color: #fff;
     background-color: #b71c1c;
@@ -105,9 +110,19 @@ h4 {
 }
 
 .btn-secondary:hover {
-    color: #b71c1c;
+    color: #7f0000;
     background-color: #fff;
     border: none;
+}
+
+.btn-secondary:focus {
+    color: #7f0000;
+    background-color: #fff;
+    border: none;
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active:focus {
+    box-shadow: none;
 }
 
 .btn-secondary:not(:disabled):not(.disabled).active,
@@ -116,6 +131,7 @@ h4 {
     color: #b71c1c;
     background-color: #fff;
     border: none;
+    box-shadow: none;
 }
 
 /* --------------------------------------Colours */
