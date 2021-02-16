@@ -260,7 +260,7 @@ footer {
 }
 
 .hero-carousel-image {
-    height: calc(100vh - 180px);
+    height: calc(100vh - 184px);
     object-fit: cover;
 }
 

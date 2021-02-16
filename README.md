@@ -173,6 +173,7 @@ Finally, the **join our mailing list** section feaures a **paragraph element** e
 * [Git](https://git-scm.com/) - **Git** was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 * [GitHub](https://github.com/) - **GitHub** is used to store the projects code after being pushed from Git.
 * [Balsamiq](https://balsamiq.com/) - **Balsamiq** was used to create the wireframes during the design process.
+* [Web Formatter](https://webformatter.com/) - **Web Formatter** was used to beautify code.
 
 ## Testing
 
