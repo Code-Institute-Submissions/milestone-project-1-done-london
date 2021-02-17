@@ -90,10 +90,14 @@ The customer goals of this website are:
 
 * Imagery
 
-    * The imagery used is from a recent photo shoot and has been chosen to promote the brand and draws on the link with Transport for London and the brand from their recent collaboration.
+    * The imagery used is from a recent photo shoot and has been chosen to promote the brand and draws on the link with Transport for London (TfL) from their recent collaboration.
 
 * Wireframes
 
+    * [Home Page Wireframe](assets/wireframes/home_wireframe.pdf)
+    * [Shop Page Wireframe]()
+    * [About Page Wireframe]()
+    * [Contact Page Wireframe]()
 ## Features
 
 Each page features a responsive **navigation bar** with conventional placing of **logo** (top left) and navigation links in the top right. The navigation links reduce to a toggle menu at mobile size to improve UX.
