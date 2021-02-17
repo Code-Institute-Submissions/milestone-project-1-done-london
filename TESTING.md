@@ -207,8 +207,11 @@ The most common path through the website:
 * Navbar toggler icon/burger icon dropdown menu not working on xs/sm screen sizes using HTML code.
     * Rewrote navbar code using the [Bootstrap4 Navbar component](https://getbootstrap.com/docs/4.0/components/navbar/) to include navbar toggler functionality which simplified the code and allowed for improved UX and responsive design.
 
-* Unable to style navbar toggler/burder icon dropdown menu featured in the navigation bar on xs/sm screen sizes
+* Unable to style navbar toggler/burger icon dropdown menu featured in the navigation bar on xs/sm screen sizes
     * The default Bootstrap4 icon is an image URL so cannot be styled. To fix this, the image was replaced by a [Font Awesome bars icon](https://fontawesome.com/icons/bars?style=solid). Link to the Stack Overflow answer [here](https://stackoverflow.com/questions/63695329/how-can-i-change-bootstrap-4-navbar-toggler-color-on-hover).
+
+* Navabar toggler/burger icon dropdown menu items not aligning with logo.
+    * Changed [Bootstrap Spacing](https://getbootstrap.com/docs/4.0/utilities/spacing/#notation) to remove spacing on small screens and increased spacing as screen sizes increased.
 
 * Heading and Hero image elements were overflowing the page, pushing the right edge of the viewport too far out.
     * Used [Bootstrap4 Grid System](https://getbootstrap.com/docs/4.0/layout/grid/) to fix this using the container>row>col syntax.
