@@ -96,8 +96,9 @@ The customer goals of this website are:
 
     * [Home Page Wireframe](assets/wireframes/home_wireframe.pdf)
     * [Shop Page Wireframe]()
-    * [About Page Wireframe]()
+    * [About Page Wireframe](https://github.com/theopmw/milestone-project-1-done-london/blob/master/assets/wireframes/about_wireframe.pdf)
     * [Contact Page Wireframe]()
+
 ## Features
 
 Each page features a responsive **navigation bar** with conventional placing of **logo** (top left) and navigation links in the top right. The navigation links reduce to a toggle menu at mobile size to improve UX.

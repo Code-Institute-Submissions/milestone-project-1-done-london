@@ -231,16 +231,17 @@ footer {
 /* -------------Copyright */
 
 .copyright {
-    text-align: center;
     line-height: 4.25rem;
-    font-size: 0.625rem;
     padding: 0;
+}
+
+.sm-md-copyright, .copyright {
+    font-size: 0.625rem;
 }
 
 /* -------------Social Links */
 
 .social-links {
-    text-align: center;
     line-height: 4.25rem;
     padding-top: 0.3125rem;
     padding-right: 0.9375rem !important;
@@ -249,7 +250,8 @@ footer {
 
 .social-links li a i {
     color: #000000;
-    font-size: 1.25rem;
+    /* font-size: 1.25rem; */
+    font-size: 1.875rem;
     margin: 0 0.75rem;
 }
 
@@ -398,9 +400,9 @@ video:focus {
 /* --------------------------------------Media Queries */
 
 @media screen and (min-width: 768px) {
-    .social-links li a i {
+    /* .social-links li a i {
         font-size: 1.875rem;
-    }
+    } */
 
     .carousel-button {
         bottom: 8%;
