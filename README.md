@@ -94,10 +94,10 @@ The customer goals of this website are:
 
 * Wireframes
 
-    * [Home Page Wireframe](assets/wireframes/home_wireframe.pdf)
-    * [Shop Page Wireframe]()
+    * [Home Page Wireframe](https://github.com/theopmw/milestone-project-1-done-london/blob/master/assets/wireframes/home_wireframe.pdf)
+    * [Shop Page Wireframe](https://github.com/theopmw/milestone-project-1-done-london/blob/master/assets/wireframes/shop_wireframe.pdf)
     * [About Page Wireframe](https://github.com/theopmw/milestone-project-1-done-london/blob/master/assets/wireframes/about_wireframe.pdf)
-    * [Contact Page Wireframe]()
+    * [Contact Page Wireframe](https://github.com/theopmw/milestone-project-1-done-london/blob/master/assets/wireframes/contact_wireframe.pdf)
 
 ## Features
 
