@@ -4,9 +4,9 @@
 
 A website for London based clothing brand - Done London.
 Website features a home page with a hero carousel promoting the brands clothing, a shop page where customers are able to browse and purchase clothing, an about page and a contact page.
-The primary goal of the website is to lead customers to make a purchase, to provide information about the brand and ways in which to make contact with the company. It is designed to be responsive and accessible on all devices, making it easy for uses to make a purchase, find out more information about the company and contact the company with any questions or queries they may have.
+The primary goal of the website is to provide users with information about the companies' product range and lead them to make a purchase. It also aims to provide information about the brand and ways in which to make contact with the company. It is designed to be responsive and accessible on all devices, making it easy for uses to make a purchase, find out more information about the company and contact the company with any questions or queries they may have.
 
-The aim was for the website to have the fewest number of steps to the point of purchase.
+The main aim was for the website to have the fewest number of steps to the point of purchase.
 
 ## Goals
 
@@ -19,7 +19,7 @@ The business goals of this website are:
 * Provide excellent UX to generate a positive emotional response from users
 
 The customer goals of this website are:
-* Find high quality well designed products
+* Find high quality, well designed products
 * Clear and easy to find pricing
 * Simple and intuitive ordering process
 * Find information about the brand
@@ -40,6 +40,7 @@ The customer goals of this website are:
 * To make a purchase for either themselves or as a gift.
 * To find out more about the brand.
 * To get in contact with the company.
+* To join the companies mailing list.
 
 #### This project is the best way to help them achieve these things because:
 
@@ -81,7 +82,7 @@ The customer goals of this website are:
 
 * Colour Scheme
 
-    * The main colours used are black and white to keep the styling in line with the brand logo. As with similar sites, colours are kept to a minimum in order to put the focus on the products on offer. Red (#b71c1c) has been used to highlight buttons and links in order to draw attention to them. A darker red (#7f0000) has been used to accent buttons when hovered over to prived a boit of difference and positive UX.
+    * The main colours used are black (#000000) and white (#ffffff) to keep the styling in line with the brand logo. As with similar sites, colours are kept to a minimum in order to put the focus on the products on offer. Red (#b71c1c) has been used to highlight buttons and links in order to draw attention to them. A darker red (#7f0000) has been used to accent buttons when hovered over to provied a point of difference and positive UX.
     
 * Typography
 
@@ -90,7 +91,7 @@ The customer goals of this website are:
 
 * Imagery
 
-    * The imagery used is from a recent photo shoot and has been chosen to promote the brand and draws on the link with Transport for London (TfL) from their recent collaboration.
+    * The imagery used is from a recent photo shoot and has been chosen to promote the brand and draws on the link with Transport for London (TfL) from their recent collaboration. All photos were taken by [Ryan O'Toole Collett](https://www.ryanotoolecollett.com/).
 
 * Wireframes
 
@@ -101,7 +102,7 @@ The customer goals of this website are:
 
 ## Features
 
-Each page features a responsive **navigation bar** with conventional placing of **logo** (top left) and navigation links in the top right. The navigation links reduce to a toggle menu at mobile size to improve UX.
+Each page features a responsive **navigation bar** with conventional placing of the **logo** (top left) and navigation links (top right). The navigation links reduce to a toggle menu at mobile size to improve UX and provide positive responsive design.
 The **basket icon** is not currently functional as it is beyond the scope of this project but will be added at a later date (see "Features to Implement in Future" section below).
 Each page has a responsive **footer** with **join mailing list**, **copyright information** and **social media icons** linking to the brands social media pages. The join mailing list feature was removed on small and medium screen sizes so as not to clutter the UI.
 
@@ -116,23 +117,23 @@ The purpose of this hero carousel element is to give maximum impact when arrivin
 The Shop page features a **hero image** followed by a **shop heading** styled in a similar style to the navigation bar and inkeeping with the overall style and presentation of the website. 
 Below this are images of the range of products on offer. Each image is a link to the product page which will have a more detailed product description and information about sizing, ordering etc. (this functionality is beyond the scope of this project but is a feature that will be added at a later date - see "Features to Implement in Future" section below).
 Below the product image is a brief description of the product and below that is the price. Under the product image is an **"Add to basket"** button which will add the item to the visitors basket (this functionality is beyond the scope of this project but is a feature that will be added at a later date - see "Features to Implement in Future" section below).
-The Shop page is layed out in columns of **Bootstrap cards** with an image, supporting text and an "Add to basket" button, 2 columns wide for mobile devices and 4 columns wide for tablet and desktop.
+The Shop page is layed out in columns of **Bootstrap cards** with an image, supporting text, pricing and an "Add to basket" button, 2 columns wide for mobile devices and 4 columns wide for tablet and desktop.
 This design choice was made to give each individual product enough space to be viewed clearly by the visitor without overcrowding the UI or making links or buttons hard to press on mobile devices.
 
 #### About
 
 The About page features a **hero image** followed by an **about heading** and is broken up into two sections with relevant **sub-headings**.
 First, the **"who we are"** section containing a brief **paragraph** explaining the brand history, ethos and who it has collaborated with in the past. This was taken from an article on [The Industry.Fashion](https://www.theindustry.fashion/done-london-launches-tfl-collection-nsew/) website. It has been kept breif in order to satisfy curiosity without overwhelming the user.
-Below this is a short **promotional video** that engages the user and shows them more about where the brand takes its insparation from.
-Second, the **"press"** section contains **Bootstrap cards** with **thumbnail images and text** of recent press articles written about the brand. These contain an image of the sources logo, the headline and the first sentence, to give the viewer a idea of what the article is about. Below this is a **"See more >>"** button which will open the full article in a new tab.
+Below this is a short **promotional video** that engages the user and shows them more about where the brand takes its inspiration from.
+Second, the **"press"** section contains **Bootstrap cards** with **thumbnail images and text** of recent press articles written about the brand. These contain an image of the sources logo, the headline and the first sentence, to give the viewer a idea of what the article is about. Below this is a **"See more >>"** button which will open the full article in a new tab. These behave responsively with the images displayed above the text on mobile and to the left of the text on tablet and desktop.
 
 #### Contact
 
-The Contact page features a **hero image** followed by a **contact heading** and is broken up into four **sub-headings** detailing the various ways to contact the company.
-First, the **visit us in store** section provides the user with the **shop address**, a **Google Maps image** of the shops location and **two images of the shop interior**.
+The Contact page features a **hero image** followed by a **contact heading** and is broken up into four **sub-headings** detailing the various ways to contact the company and a button to launch a modal which users can use to sign up to the mailing list.
+First, the **visit us in store** section provides the user with the **shop address**, a **Google Maps image** of the shops location and **two images of the shop interior**. On mobile devices, only the map is visible to provide a positive responsive design.
 Second, the **send us an email** section provides the user with the two email addresses for the business. One for shop enquiries and one for print enquiries. The email addresses are links to open up the users default mail app to assist in guiding them to make contact and are highlighted in red to grab attention.
-Third, the **send us a message** section features a **contact form**, which requests the clients name, email, and a box to add their message. At the bottom of the from is a **Send Button**.
-Finally, the **join our mailing list** section feaures a **paragraph element** explaining what clients gain from signing up to the mailing list and a **Join Mailing List Button** that launches a **Modal** which requests the clients name and email. Below this is a **Close Button** to close the modal and a **Submit** button to submit the request.
+Third, the **send us a message** section features a **contact form**, which requests the users name, email, and a box to add their message. At the bottom of the form is a **Send Button**. The width of the form changes depending on the screen size to ensure it looks clear on all devices.
+Finally, the **join our mailing list** section features a **paragraph element** explaining what users gain from signing up to the mailing list and a **Join Mailing List Button** that launches a **Modal** which requests the clients name and email. Below this is a **Close Button** to close the modal and a **Submit** button to submit the request.
 
 ### Existing Features
 
@@ -152,12 +153,13 @@ Finally, the **join our mailing list** section feaures a **paragraph element** e
 
 ### Features to Implement in Future
 
-* GDPR compliant pop-up screen - Allows all new visitors to the website to approve or deny the processing of their personal data. Ensures the business complies with the EU data protection law. - Javascript Needed.
-* Add CAPTCHA to contact form - Allows business to protect the contact form from spam. - Javascript Needed.
+* GDPR compliant pop-up screen - Allows all new visitors to the website to approve or deny the processing of their personal data. Ensures the business complies with the EU data protection law.
+* Add CAPTCHA to contact form - Allows business to protect the contact form from spam.
 * Add buying/shopping cart functionality to allow clients to buy products.
-* Add mailing list funtionality.
+* Add mailing list functionality.
 * Add links to more detailed product information and size selection when a product is clicked on shop.html.
 * Add Google Maps API to show more detailes store location information on contact.html.
+* Add detailed ordering and returns information once shopping cart/buying functionality had been added.
 
 ## Technologies Used
 
@@ -191,17 +193,17 @@ Detailed testing information can be found in separate [TESTING.md file](TESTING.
 The project was deployed to GitHub Pages using the following steps:
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/theopmw/milestone-project-1-done-london)
-2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+2. At the top of the Repository (not top of page), locate the "Settings" button on the menu.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
-5. Another dropdown will appear to the right, Select "/(root)" in this dropdown.
+5. Another dropdown will appear to the right, select "/(root)" in this dropdown.
 6. Then click Save.
 7. The page will then refresh.
 8. Scroll back down through the page to locate the now published [site link](https://theopmw.github.io/milestone-project-1-done-london/) in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
 
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/theopmw/milestone-project-1-done-london)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
@@ -239,11 +241,11 @@ $ git clone https://github.com/theopmw/milestone-project-1-done-london
 
 ### Media
 
-* All the photos and videos for the site were supplied directly by DONE LONDON.
+* All the photos and videos for the site were supplied directly by DONE LONDON and taken by [Ryan O'Toole Collett](https://www.ryanotoolecollett.com/).
 
 ### Acknowledgements
 
-* DONE LONDON for allowing the developer to use their work for the purpose of this project and thier support in providing the media used throughout the site.
+* DONE LONDON/Ryan O'Toole Collett for allowing the developer to use their work for the purpose of this project and thier support in providing the media used throughout the site.
 * Inspiration for this site came from the work of DONE LONDON and the layout and deign of similar clothing sites including [ASOS](https://www.asos.com/) and [End](https://www.endclothing.com/).
 * Thanks to my Code Institute Mentor, Akshat Garg, for continuous feedback and support.
 
