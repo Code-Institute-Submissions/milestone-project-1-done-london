@@ -106,6 +106,7 @@ The most common path through the website:
     1. Confirm that Join Mailing List section works and "Submit" button colour transition on hover is correct - Note mailing list functionality is beyond the scope of this project and this feature will be added in at a later date.
     2. Click on each social media icon to confrim it links to the correct page and opens in a new tab.
     3. Reduce screen size to confrim that on tablet and mobile devices, the footer changes correctly to shop only social icons and copyright information.
+    4. Confirm that social links are centre aligned on mobile and tablet and aligned right on desktop.
 
 7. Review and confirm responsiveness and funtionality on different browsers.
 

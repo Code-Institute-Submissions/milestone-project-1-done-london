@@ -373,6 +373,11 @@ video:focus {
 
 /* --------------------------------------Media Queries */
 
+@media screen and (min-width: 768px) {
+    /* .social-links li a i {
+        font-size: 1.875rem;
+    } */
+
     .carousel-button {
         bottom: 8%;
     }
@@ -421,5 +426,9 @@ video:focus {
 @media screen and (max-width: 991px) {
     .form-group {
         width: 75%;
+    }
+
+    .social-links {
+        text-align: center;
     }
 }
