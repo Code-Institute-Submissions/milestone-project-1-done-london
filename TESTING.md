@@ -9,7 +9,7 @@
 ## Testing
 ---
 
-The developer used **W3C  Markup Validation Service** and **W3C CSS Validation Service** to check the website code.
+**W3C  Markup Validation Service** and **W3C CSS Validation Service** were used by the developer to check the website code.
 
 * [W3C Markup Validation](https://validator.w3.org/)
 * [W3C CSS Validation](https://jigsaw.w3.org/css-validator/)
@@ -40,7 +40,7 @@ The most common path through the website:
     * The About page contains a short compelling text about the company, a brief video and links to press articles concerning the company should the user wish to find out more.
 
 * As a First Time User, I want to be able to easily locate thier social media links to gather more information.
-    * Links to the companies social media platforms in the form of icons are found in the footer of every page.
+    * Links to the companies social media platforms in the form of icons are found in the footer of every page on all screen sizes.
 
 #### Returning User Goals:
 
@@ -49,7 +49,7 @@ The most common path through the website:
     * A clearly labelled Shop page is easy to find in the navigation on every page.
 
 * As a Returning User, I want to be able to make a purchase with the fewest steps possible.
-    * As above, there is a call to action button on the Home page and a clearly labelled Shop page is easy to find in the navigation on every page to lead the user to the Shop page in order to make a purchase.
+    * As above, there is a call to action button on the Home page and a clearly labelled Shop page is easy to find in the navigation on every page to lead the user to the Shop page in order to make a purchase. Note that cart functionality is beyond the scope of this project but if listed as a feature to be added in later.
 
 * As a Returning User, I want to find out about any new products on offer.
     * As above, there is a call to action button on the Home page and a clearly labelled Shop page is easy to find in the navigation on every page to lead the user to the Shop page in order view all product on offer.
@@ -61,10 +61,10 @@ The most common path through the website:
 #### Frequent User Goals:
 
 * As a Fequent User, I want to sign up to the Newsletter so I am kept up to date with products, news and promotions/sales direct to my inbox.
-    * The user can join the mailing list either via the email input in the footer on every page on desktop, or the join mailing list call to action button on the Contact page to recieve updates about new and upcoming products direct to their email.
+    * The user can join the mailing list either via the email input in the footer on every page on desktop, or the join mailing list call to action button on the Contact page to recieve updates about new and upcoming products/promotions direct to their email.
 
 * As a Fequent User, I want to find out if there are any new products for sale.
-    * By using either the call to action button featured on the Home Page or the clearly labelled Shop page in the navigation on every page, user s will be able to find the products currently on offer.
+    * By using either the call to action button featured on the Home Page or the clearly labelled Shop page in the navigation on every page, users will be able to find the products currently on offer.
     * The user can also join the mailing list either via the emial input in the footer on desktop or the join mailing list call to action button on the contact page to recieve updates about new and upcoming products direct to their email.
     * New products and upcoming releases will also be annouced on the brands' social channels and links to them can be found in the footer of every page.
 
@@ -73,7 +73,7 @@ The most common path through the website:
     * New products and upcoming releases will also be annouced on the brands' social channels and links to them can be found in the footer of every page.
 
 * As a Fequent User, I want to be able to find out the latest news on what the company is doing.
-    * This information can be found on the company socail media, links to all platforms can be found in the footer of every page.
+    * This information can be found on the company social media, links to all platforms can be found in the footer of every page.
     * A clearly labelled About page is easy to find on every page and provides more information about the company, including links to relevant recent press articles.
 
 ### Manual (logical) Testing of all Elements and Functionality on Every Page:
@@ -208,7 +208,7 @@ The most common path through the website:
     * Rewrote navbar code using the [Bootstrap4 Navbar component](https://getbootstrap.com/docs/4.0/components/navbar/) to include navbar toggler functionality which simplified the code and allowed for improved UX and responsive design.
 
 * Unable to style navbar toggler/burger icon dropdown menu featured in the navigation bar on xs/sm screen sizes
-    * The default Bootstrap4 icon is an image URL so cannot be styled. To fix this, the image was replaced by a [Font Awesome bars icon](https://fontawesome.com/icons/bars?style=solid). Link to the Stack Overflow answer [here](https://stackoverflow.com/questions/63695329/how-can-i-change-bootstrap-4-navbar-toggler-color-on-hover).
+    * The default Bootstrap4 icon is an image URL so cannot be styled. To fix this, the image was replaced by a [Font Awesome bars icon](https://fontawesome.com/icons/bars?style=solid). Link to the Stack Overflow answer used [here](https://stackoverflow.com/questions/63695329/how-can-i-change-bootstrap-4-navbar-toggler-color-on-hover).
 
 * Navabar toggler/burger icon dropdown menu items not aligning with logo.
     * Changed [Bootstrap Spacing](https://getbootstrap.com/docs/4.0/utilities/spacing/#notation) to remove spacing on small screens and increased spacing as screen sizes increased.
@@ -217,7 +217,7 @@ The most common path through the website:
     * Used [Bootstrap4 Grid System](https://getbootstrap.com/docs/4.0/layout/grid/) to fix this using the container>row>col syntax.
 
 * Images not loading in Github Pages 
-    * When the site was originally deployed to Github Pages, the images failed to load despite working in the development version. This was fixed by changing the file paths for images from "src="/assets/images" to "src="assets/images". This was achieved by removing the leading "/" using find & replace in GitPod.
+    * When the site was originally deployed to Github Pages, the images failed to load despite working in the development version and previews. This was fixed by changing the file paths for images from "src="/assets/images" to "src="assets/images". This was achieved by removing the leading "/" using find & replace in GitPod.
 
 * Hero carousel images on index.html not fitting all screen sizes with space for header and footer
     * Applied the following styling as suggested by mentor:
@@ -241,3 +241,6 @@ The most common path through the website:
 * Video not loading in Github Pages
     * Similar issue to the above, the video failed to load despite working in the development version. This was fixed by changing the file path for the video from "src="/assets/video" to "src="assets/video". This was achieved by removing the leading "/" using find & replace in GitPod.
 
+### Further testing:
+
+* Asked friends and fellow students to use the site on a range of devices and report any potentail issues or bugs they found. No major issues were reported but there were comments made about uneven spacing on the About page so this was checked and modified.
