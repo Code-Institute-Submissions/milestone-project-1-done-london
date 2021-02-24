@@ -203,6 +203,17 @@ The most common path through the website:
 
 10. Review and confirm responsiveness and funtionality on tablet and mobile devices.
 
+### Testing using Chrome Developer Tools Lighthouse:
+
+Lighthouse was used to flag any problems across all pages of the site for mobile and desktop devices, below are the issues that were fixed where applicable as a result of the reports generated.
+
+#### Best Practices
+
+* Links to cross-origin destinations flagged as unsafe for social links in footer (all pages) and press links (about.html)
+    * rel="noopener" added to links improve performance and prevent security vulnerabilities.
+
+
+
 ### Bugs
 
 * Navbar toggler icon/burger icon dropdown menu not working on xs/sm screen sizes using HTML code.
