@@ -212,7 +212,8 @@ footer {
     padding: 0;
 }
 
-.sm-md-copyright, .copyright {
+.sm-md-copyright,
+.copyright {
     font-size: 0.625rem;
 }
 
@@ -244,7 +245,7 @@ footer {
 
 .carousel-button {
     position: absolute;
-    bottom: 7%;
+    bottom: 3.125rem;
     z-index: 20;
     color: white;
 }
@@ -298,7 +299,6 @@ video:focus {
     margin: 0 auto;
     float: none;
     margin-bottom: 10px;
-    /* border: solid 1px black; */
 }
 
 .press-card img {
@@ -392,8 +392,8 @@ video:focus {
     }
 
     .press-image-container {
-    text-align: right !important;
-}
+        text-align: right !important;
+    }
 }
 
 @media screen and (min-width: 992px) {
