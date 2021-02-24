@@ -78,6 +78,8 @@ The most common path through the website:
 
 ### Manual (logical) Testing of all Elements and Functionality on Every Page:
 
+The below testing was completed to ensure that each element of the site behaves the way it is expected to and that the website design is responsive - that layout changes appropriately and maintains structural integrity across all device screen sizes:
+
 #### Home Page:
 
 1. Navigation Bar:

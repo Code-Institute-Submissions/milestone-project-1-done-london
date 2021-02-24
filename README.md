@@ -137,11 +137,11 @@ Finally, the **join our mailing list** section features a **paragraph element** 
 
 ### Existing Features
 
-* Header Logo - Exists on [every page](../index.html) and allows users to eaily identify the business brand. Clicking the logo returns users to the home page as they would expect.
-* Header Navigation Bar - Exists on [every page](../index.html) and allows users to easily navigate all pages of the website and easily find what they are looking for.
-* Footer Join Mailing List - Exists on [every page](../index.html) and allows users to enter their email to sign up to the mailing list. This feature is only visible on desktop as it overcrowds the footer at smaller screen sizes.
-* Footer Copyright Info - Exists on [every page](../index.html) and protects business copyright.
-* Footer Social Icons - Exists on [every page](../index.html) and allows users to access the brands social media platforms.
+* Header Logo - Exists on [every page](index.html) and allows users to eaily identify the business brand. Clicking the logo returns users to the home page as they would expect.
+* Header Navigation Bar - Exists on [every page](index.html) and allows users to easily navigate all pages of the website and easily find what they are looking for.
+* Footer Join Mailing List - Exists on [every page](index.html) and allows users to enter their email to sign up to the mailing list. This feature is only visible on desktop as it overcrowds the footer at smaller screen sizes.
+* Footer Copyright Info - Exists on [every page](index.html) and protects business copyright.
+* Footer Social Icons - Exists on [every page](index.html) and allows users to access the brands social media platforms.
 * [Hero Image Carousel](index.html) - Allows potential clients to view examples of the brands products. Creates immediate connection and emmotional response.
 * [Call to Action Button](index.html) - Guides potential clients towards the shop page via "Shop Now" button to lead them into making a purchase. Reduces steps to point of purchase.
 * [Shop Item Cards](shop.html) - Lists items available for purchase in a clear grid view. Each card provides an image of the product, a brief description of the product, the products price and a button to add the product to basket.
