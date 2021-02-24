@@ -244,7 +244,7 @@ footer {
 
 .carousel-button {
     position: absolute;
-    bottom: 10%;
+    bottom: 8%;
     z-index: 20;
     color: white;
 }
@@ -298,6 +298,7 @@ video:focus {
     margin: 0 auto;
     float: none;
     margin-bottom: 10px;
+    /* border: solid 1px black; */
 }
 
 .press-card img {
@@ -379,7 +380,7 @@ video:focus {
     } */
 
     .carousel-button {
-        bottom: 8%;
+        /* bottom: 8%; */
     }
 
     .promo-video {
@@ -397,6 +398,10 @@ video:focus {
     .press-card {
         padding: 0 2.5rem;
     }
+
+    .press-image-container {
+    text-align: right !important;
+}
 }
 
 @media screen and (min-width: 992px) {
@@ -405,7 +410,7 @@ video:focus {
     }
 
     .carousel-button {
-        bottom: 6%;
+        /* bottom: 6%; */
     }
 
     .press-image-container {
