@@ -134,10 +134,6 @@ h4 {
     box-shadow: none;
 }
 
-/* --------------------------------------Colours */
-
-/* --------------------------------------Backgrounds */
-
 /* --------------------------------------Header */
 
 header {
@@ -150,8 +146,6 @@ header {
     border: solid 0.0625rem;
     border-color: #000000;
     margin: 0.3125rem;
-    /* padding-left: 25px;  */
-    /* height: 100px; */
 }
 
 .navbar-brand {
@@ -180,22 +174,6 @@ header {
     margin: 0;
 }
 
-/* .navbar-toggler i:active {
-    border: none;
-    color: #b71c1c;
-} */
-
-/* .navbar-toggler-icon {
-    color: #000000;
-    border: none;
-    font-size: 20px;
-}
-
-.navbar-toggler-icon:active {
-    color: #b71c1c;
-    border: none;
-} */
-
 .list-inline-item:not(:last-child) {
     margin: 0;
 }
@@ -221,7 +199,6 @@ footer {
 
 .footer-mailing-list-text {
     padding: 0.3125rem 0 0 0.375rem;
-    /* padding-left: 0.375rem; */
 }
 
 .footer-mailing-list label {
@@ -250,7 +227,6 @@ footer {
 
 .social-links li a i {
     color: #000000;
-    /* font-size: 1.25rem; */
     font-size: 1.875rem;
     margin: 0 0.75rem;
 }
@@ -329,8 +305,6 @@ video:focus {
     width: 6.25rem;
     margin: 0.3125rem;
     padding-bottom: 0;
-    /* margin-top: 1.5625rem; */
-    /* float: right; */
 }
 
 .press-card-title {
@@ -398,11 +372,6 @@ video:focus {
 }
 
 /* --------------------------------------Media Queries */
-
-@media screen and (min-width: 768px) {
-    /* .social-links li a i {
-        font-size: 1.875rem;
-    } */
 
     .carousel-button {
         bottom: 8%;
