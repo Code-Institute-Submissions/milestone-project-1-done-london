@@ -372,6 +372,12 @@ video:focus {
     padding: 1.25rem 1.25rem 2.5rem 1.25rem;
 }
 
+/* --------------------------------------Basket*/
+
+.coming-soon {
+    height: calc(100vh - 184px);
+}
+
 /* --------------------------------------Media Queries */
 
 @media screen and (min-width: 768px) {
