@@ -280,7 +280,7 @@ footer {
 }
 
 .promo-video-container {
-    padding-bottom: 0.3125rem;
+    padding: 0.3125rem;
 }
 
 .promo-video {
@@ -376,7 +376,7 @@ video:focus {
 
 @media screen and (min-width: 768px) {
     .promo-video {
-        width: 75%;
+        /* width: 75%; */
     }
 
     .press-card-title {
