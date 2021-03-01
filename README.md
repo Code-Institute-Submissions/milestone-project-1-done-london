@@ -139,7 +139,7 @@ Finally, the **join our mailing list** section features a **paragraph element** 
 
 #### Basket
 
-The Basket page features a message that the page is under construction and invites users to come back soon once basket funtionality had been added to the site.
+The Basket page features a message that the page is under construction and invites users to come back soon once basket/checkout funtionality had been added to the site.
 
 ### Existing Features
 
@@ -161,7 +161,7 @@ The Basket page features a message that the page is under construction and invit
 
 * GDPR compliant pop-up screen - Allows all new visitors to the website to approve or deny the processing of their personal data. Ensures the business complies with the EU data protection law.
 * Add CAPTCHA to contact form - Allows business to protect the contact form from spam.
-* Add buying/shopping cart functionality to allow users to buy products.
+* Add basket/checkout functionality to allow users to buy products.
 * Add "send us a message" form functionality to allow users to send messages to the company.
 * Add mailing list functionality.
 * Add links to more detailed product information and size selection when a product is clicked on shop.html.
