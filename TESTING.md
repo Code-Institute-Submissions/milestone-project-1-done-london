@@ -21,6 +21,10 @@ The most common path through the website:
 * Home>Shop
     * The Home page features a **call to action button**, leading the user to the **Shop page**. This is also achievable using the **navigation bar** situated at the top of every page.
     * The About and Contact pages are not necessarily part of the flow of the site for all users but have been included to offer information about the company and how to contact them for users that are interested. All information is kept brief to avoid overloading the user.
+    * The Basket page is not currently functional as it is beyond the scope of this project, this feature will be added in in the future.
+
+Once basket/checkout functionality has been added and there are specific product pages for each item providing detailed product information and sizing options, this will change and become more complex. For example:
+Home>Shop>Product Information>Basket/Checkout
 
 ### Testing User Stories From UX Section of README.md:
 
@@ -49,7 +53,7 @@ The most common path through the website:
     * A clearly labelled Shop page is easy to find in the navigation on every page.
 
 * As a Returning User, I want to be able to make a purchase with the fewest steps possible.
-    * As above, there is a call to action button on the Home page and a clearly labelled Shop page is easy to find in the navigation on every page to lead the user to the Shop page in order to make a purchase. Note that cart functionality is beyond the scope of this project but if listed as a feature to be added in later.
+    * As above, there is a call to action button on the Home page and a clearly labelled Shop page is easy to find in the navigation on every page to lead the user to the Shop page in order to make a purchase. Note that cart functionality is beyond the scope of this project but is listed as a feature to be added in later.
 
 * As a Returning User, I want to find out about any new products on offer.
     * As above, there is a call to action button on the Home page and a clearly labelled Shop page is easy to find in the navigation on every page to lead the user to the Shop page in order view all product on offer.
@@ -69,7 +73,7 @@ The most common path through the website:
     * New products and upcoming releases will also be annouced on the brands' social channels and links to them can be found in the footer of every page.
 
 * As a Fequent User, I want to find out about any new releases coming up.
-    * The user can join the mailing list either via the emial input in the footer on desktop or the join mailing list call to action button on the contact page to recieve updates about new and upcoming products direct to their email.
+    * The user can join the mailing list either via the email input in the footer on desktop or the join mailing list call to action button on the contact page to recieve updates about new and upcoming products direct to their email.
     * New products and upcoming releases will also be annouced on the brands' social channels and links to them can be found in the footer of every page.
 
 * As a Fequent User, I want to be able to find out the latest news on what the company is doing.
@@ -110,9 +114,9 @@ The below testing was completed to ensure that each element of the site behaves 
     3. Reduce screen size to confrim that on tablet and mobile devices, the footer changes correctly to shop only social icons and copyright information.
     4. Confirm that social links are centre aligned on mobile and tablet and aligned right on desktop.
 
-7. Review and confirm responsiveness and funtionality on different browsers.
+7. Review and confirm responsiveness and functionality on different browsers.
 
-8. Review and confirm responsiveness and funtionality on tablet and mobile devices.
+8. Review and confirm responsiveness and functionality on tablet and mobile devices.
 
 #### Shop Page:
 
@@ -134,9 +138,9 @@ The below testing was completed to ensure that each element of the site behaves 
 
 4. Repeat steps performed to confirm footer responsiveness and funtionality on Home page.
 
-5. Review and confirm responsiveness and funtionality on different browsers.
+5. Review and confirm responsiveness and functionality on different browsers.
 
-6. Review and confirm responsiveness and funtionality on tablet and mobile devices.
+6. Review and confirm responsiveness and functionality on tablet and mobile devices.
 
 #### About Page:
 
@@ -161,9 +165,9 @@ The below testing was completed to ensure that each element of the site behaves 
 
 6. Repeat varification steps performed on Home page to confirm footer responsiveness and funtionality.
 
-7. Review and confirm responsiveness and funtionality on different browsers.
+7. Review and confirm responsiveness and functionality on different browsers.
 
-8. Review and confirm responsiveness and funtionality on tablet and mobile devices.
+8. Review and confirm responsiveness and functionality on tablet and mobile devices.
 
 #### Contact Page:
 
@@ -201,9 +205,24 @@ The below testing was completed to ensure that each element of the site behaves 
 
 8. Repeat varification steps performed on Home page to confirm footer responsiveness and funtionality.
 
-9. Review and confirm responsiveness and funtionality on different browsers.
+9. Review and confirm responsiveness and functionality on different browsers.
 
-10. Review and confirm responsiveness and funtionality on tablet and mobile devices.
+10. Review and confirm responsiveness and functionality on tablet and mobile devices.
+
+#### Basket Page:
+
+1. Navigation Bar:
+    1. Repeat varification steps for Navigation Bar as completed on Home page.
+    2. Confirm Navigation Bar code is identical on every page of site.
+
+2. Sub-heading and text:
+    1. Reduce and expand window to confirm that text behaves as expected.
+
+3. Repeat varification steps performed on Home page to confirm footer responsiveness and funtionality.
+
+4. Review and confirm responsiveness and functionality on different browsers.
+
+5. Review and confirm responsiveness and functionality on tablet and mobile devices.
 
 ### Testing using Chrome Developer Tools Lighthouse:
 
@@ -211,12 +230,12 @@ Lighthouse was used to flag any problems across all pages of the site for mobile
 
 #### Best Practices
 
-* Links to cross-origin destinations flagged as unsafe for social links in footer (all pages) and press links (about.html)
+* Links to cross-origin destinations flagged as unsafe for social links in footer (all pages) and press links (about.html).
     * rel="noopener" added to links improve performance and prevent security vulnerabilities.
 
 #### SEO
 
-* Document does not have a meta description.
+* Document does not have a meta description flagged for all pages.
     * Added a <meta name="description"> element to all pages to improve search traffic and make each page appear more relevant.
 
 ### Bugs
