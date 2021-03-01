@@ -8,6 +8,8 @@ The primary goal of the website is to provide users with information about the c
 
 The main aim was for the website to have the fewest number of steps to the point of purchase.
 
+![Am I Responsive](https://github.com/theopmw/milestone-project-1-done-london/blob/master/assets/images/readme/home_am_i_responsive.png?raw=true)
+
 ## Goals
 
 The business goals of this website are:
