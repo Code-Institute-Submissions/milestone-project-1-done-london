@@ -3,7 +3,7 @@
 # DONE LONDON
 
 A website for London based clothing brand - Done London.
-Website features a home page with a hero carousel promoting the brands clothing, a shop page where customers are able to browse and purchase clothing, an about page and a contact page.
+Website features a home page with a hero carousel promoting the brands clothing, a shop page where customers are able to browse and purchase clothing, an about page, a contact page and a basket page.
 The primary goal of the website is to provide users with information about the companies' product range and lead them to make a purchase. It also aims to provide information about the brand and ways in which to make contact with the company. It is designed to be responsive and accessible on all devices, making it easy for uses to make a purchase, find out more information about the company and contact the company with any questions or queries they may have.
 
 The main aim was for the website to have the fewest number of steps to the point of purchase.
