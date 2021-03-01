@@ -214,7 +214,10 @@ Lighthouse was used to flag any problems across all pages of the site for mobile
 * Links to cross-origin destinations flagged as unsafe for social links in footer (all pages) and press links (about.html)
     * rel="noopener" added to links improve performance and prevent security vulnerabilities.
 
+#### SEO
 
+* Document does not have a meta description.
+    * Added a <meta name="description"> element to all pages to improve search traffic and make each page appear more relevant.
 
 ### Bugs
 
