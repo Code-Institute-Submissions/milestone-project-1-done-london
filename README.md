@@ -106,7 +106,6 @@ The customer goals of this website are:
 ## Features
 
 Each page features a responsive **navigation bar** with conventional placing of the **logo** (top left) and navigation links (top right). The navigation links reduce to a toggle menu at mobile size to improve UX and provide positive responsive design.
-The **basket icon** is not currently functional as it is beyond the scope of this project but will be added at a later date (see "Features to Implement in Future" section below).
 Each page has a responsive **footer** with **join mailing list**, **copyright information** and **social media icons** linking to the brands social media pages. The join mailing list feature was removed on small and medium screen sizes so as not to clutter the UI.
 
 #### Home
@@ -119,7 +118,7 @@ The purpose of this hero carousel element is to give maximum impact when arrivin
 
 The Shop page features a **hero image** followed by a **shop heading** styled in a similar style to the navigation bar and inkeeping with the overall style and presentation of the website. 
 Below this are images of the range of products on offer. Each image is a link to the product page which will have a more detailed product description and information about sizing, ordering etc. (this functionality is beyond the scope of this project but is a feature that will be added at a later date - see "Features to Implement in Future" section below).
-Below the product image is a brief description of the product and below that is the price. Under the product image is an **"Add to basket"** button which will add the item to the visitors basket (this functionality is beyond the scope of this project but is a feature that will be added at a later date - see "Features to Implement in Future" section below).
+Below the product image is a brief description of the product and below that is the price. Under the product image is an **"Add to basket"** button which will add the item to the users basket (this functionality is beyond the scope of this project but is a feature that will be added at a later date - see "Features to Implement in Future" section below). It currently links to the basket page which features a "coming soon" message as basket funtionality is beyond the scope of this project.
 The Shop page is layed out in columns of **Bootstrap cards** with an image, supporting text, pricing and an "Add to basket" button, 2 columns wide for mobile devices and 4 columns wide for tablet and desktop.
 This design choice was made to give each individual product enough space to be viewed clearly by the visitor without overcrowding the UI or making links or buttons hard to press on mobile devices.
 
@@ -132,11 +131,15 @@ Second, the **"press"** section contains **Bootstrap cards** with **thumbnail im
 
 #### Contact
 
-The Contact page features a **hero image** followed by a **contact heading** and is broken up into four **sub-headings** detailing the various ways to contact the company and a button to launch a modal which users can use to sign up to the mailing list.
+The Contact page features a **hero image** followed by a **contact heading** and is broken up into four **sub-headings** detailing the various ways to contact the company and a button to launch a modal which users can click to sign up to the mailing list.
 First, the **visit us in store** section provides the user with the **shop address**, a **Google Maps image** of the shops location and **two images of the shop interior**. On mobile devices, only the map is visible to provide a positive responsive design.
 Second, the **send us an email** section provides the user with the two email addresses for the business. One for shop enquiries and one for print enquiries. The email addresses are links to open up the users default mail app to assist in guiding them to make contact and are highlighted in red to grab attention.
-Third, the **send us a message** section features a **contact form**, which requests the users name, email, and a box to add their message. At the bottom of the form is a **Send Button**. The width of the form changes depending on the screen size to ensure it looks clear on all devices.
-Finally, the **join our mailing list** section features a **paragraph element** explaining what users gain from signing up to the mailing list and a **Join Mailing List Button** that launches a **Modal** which requests the clients name and email. Below this is a **Close Button** to close the modal and a **Submit** button to submit the request.
+Third, the **send us a message** section features a **contact form**, which requests the users name, email, and a box to add their message. At the bottom of the form is a **Send Button**. The width of the form changes depending on the screen size to ensure it looks clear on all devices. The form is not currently functional as it is beyond the scope of this project (see "Features to Implement in Future" section below).
+Finally, the **join our mailing list** section features a **paragraph element** explaining what users gain from signing up to the mailing list and a **Join Mailing List Button** that launches a **Modal** which requests the clients name and email. Below this is a **Close Button** to close the modal and a **Submit** button to submit the request. The submit button is not currently functional as it is beyond the scope of this project (see "Features to Implement in Future" section below).
+
+#### Basket
+
+The Basket page features a message that the page is under construction and invites users to come back soon once basket funtionality had been added to the site.
 
 ### Existing Features
 
@@ -158,7 +161,8 @@ Finally, the **join our mailing list** section features a **paragraph element** 
 
 * GDPR compliant pop-up screen - Allows all new visitors to the website to approve or deny the processing of their personal data. Ensures the business complies with the EU data protection law.
 * Add CAPTCHA to contact form - Allows business to protect the contact form from spam.
-* Add buying/shopping cart functionality to allow clients to buy products.
+* Add buying/shopping cart functionality to allow users to buy products.
+* Add "send us a message" form functionality to allow users to send messages to the company.
 * Add mailing list functionality.
 * Add links to more detailed product information and size selection when a product is clicked on shop.html.
 * Add Google Maps API to show more detailes store location information on contact.html.
