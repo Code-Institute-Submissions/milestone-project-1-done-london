@@ -4,7 +4,7 @@
 
 [Main README.md File](README.md)
 
-[View website in GitHub Pages](https://github.com/theopmw/milestone-project-1-done-london)
+[View website in GitHub Pages](https://theopmw.github.io/milestone-project-1-done-london/index.html)
 
 ## Testing
 ---
@@ -31,11 +31,11 @@ Home>Shop>Product Information>Basket/Checkout
 #### First time User Goals:
 
 * As a First Time User, I want to easily understand the purpose of the site.
-    * The imagery and navigation bar on the home page clearly indicte that this site is a clothes shopping site.
+    * The imagery and navigation bar on the home page clearly indicate that this site is a clothes shopping site.
     * The call to action button on the hero carousel leads the user towards the shop page to view the products on offer.
 
 * As a First Time User, I want to be able to easily navigate the site.
-    * No matter what page of the site the user lands on, there is a clear navigation bar, highliging the current active page.
+    * No matter what page of the site the user lands on, there is a clear navigation bar, highlighting the current active page.
     * The logo to the top left of every page always leads back to the Home page.
     * The Home page call to action button leads the user to the Shop page in order to streamline the steps needed to make a purchase.
 
@@ -56,7 +56,7 @@ Home>Shop>Product Information>Basket/Checkout
     * As above, there is a call to action button on the Home page and a clearly labelled Shop page is easy to find in the navigation on every page to lead the user to the Shop page in order to make a purchase. Note that cart functionality is beyond the scope of this project but is listed as a feature to be added in later.
 
 * As a Returning User, I want to find out about any new products on offer.
-    * As above, there is a call to action button on the Home page and a clearly labelled Shop page is easy to find in the navigation on every page to lead the user to the Shop page in order view all product on offer.
+    * As above, there is a call to action button on the Home page and a clearly labelled Shop page is easy to find in the navigation on every page to lead the user to the Shop page in order view all product on offer. In future there would also be scope to add a new arrivals section.
 
 * As a Returning User, I want to find the best way to contact the company with any questions or issues I may have.
     * A clearly labelled Contact page is easy to find in the navigation on every page.
@@ -102,7 +102,7 @@ The below testing was completed to ensure that each element of the site behaves 
     1. Go to the Home page on a desktop.
     2. Confirm carousel is visible and images scroll correctly.
     3. Check that header, carousel and footer take up the full viewport.
-    3. Reduce screen size to confirm images change when reduced to tablet size.
+    3. Reduce screen size to confirm images change when reduced to tablet and mobile size.
     4. Reduce and enlarge size of window to confirm that "Shop Now" call to action button responds correctly.
     5. Click Hero Carousel controls to ensure they work on all screen sizes.
     6. Hover over "Shop Now" call to action button to confirm colour transition is correct.

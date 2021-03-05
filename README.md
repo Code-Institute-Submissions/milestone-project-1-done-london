@@ -12,7 +12,7 @@ The main aim was for the website to have the fewest number of steps to the point
 
 ## Goals
 
-The business goals of this website are:
+#### The business goals of this website are:
 * Build brand awareness
 * Increase social media following
 * Showcase and promote the brands' clothing
@@ -20,7 +20,7 @@ The business goals of this website are:
 * Lead visitors to the point of purchase in the fewest number of steps
 * Provide excellent UX to generate a positive emotional response from users
 
-The customer goals of this website are:
+#### The customer goals of this website are:
 * Find high quality, well designed products
 * Clear and easy to find pricing
 * Simple and intuitive ordering process
@@ -84,7 +84,7 @@ The customer goals of this website are:
 
 * Colour Scheme
 
-    * The main colours used are black (#000000) and white (#ffffff) to keep the styling in line with the brand logo. As with similar sites, colours are kept to a minimum in order to put the focus on the products on offer. Red (#b71c1c) has been used to highlight buttons and links in order to draw attention to them. A darker red (#7f0000) has been used to accent buttons when hovered over to provied a point of difference and positive UX.
+    * The main colours used are black (#000000) and white (#ffffff) to keep the styling in line with the brand logo. As with similar sites, colours are kept to a minimum in order to put the focus on the products on offer. Red (#b71c1c) has been used to highlight buttons and links in order to draw attention to them. A darker red (#7f0000) has been used to accent buttons when hovered over to provide a point of difference and positive UX.
     
 * Typography
 
@@ -132,10 +132,10 @@ Second, the **"press"** section contains **Bootstrap cards** with **thumbnail im
 #### Contact
 
 The Contact page features a **hero image** followed by a **contact heading** and is broken up into four **sub-headings** detailing the various ways to contact the company and a button to launch a modal which users can click to sign up to the mailing list.
-First, the **visit us in store** section provides the user with the **shop address**, a **Google Maps image** of the shops location and **two images of the shop interior**. On mobile devices, only the map is visible to provide a positive responsive design.
-Second, the **send us an email** section provides the user with the two email addresses for the business. One for shop enquiries and one for print enquiries. The email addresses are links to open up the users default mail app to assist in guiding them to make contact and are highlighted in red to grab attention.
-Third, the **send us a message** section features a **contact form**, which requests the users name, email, and a box to add their message. At the bottom of the form is a **Send Button**. The width of the form changes depending on the screen size to ensure it looks clear on all devices. The form is not currently functional as it is beyond the scope of this project (see "Features to Implement in Future" section below).
-Finally, the **join our mailing list** section features a **paragraph element** explaining what users gain from signing up to the mailing list and a **Join Mailing List Button** that launches a **Modal** which requests the clients name and email. Below this is a **Close Button** to close the modal and a **Submit** button to submit the request. The submit button is not currently functional as it is beyond the scope of this project (see "Features to Implement in Future" section below).
+First, the **"visit us in store"** section provides the user with the **shop address**, a **Google Maps image** of the shops location and **two images of the shop interior**. On mobile devices, only the map is visible to provide a positive responsive design.
+Second, the **"send us an email"** section provides the user with the two email addresses for the business. One for shop enquiries and one for print enquiries. The email addresses are links to open up the users default mail app to assist in guiding them to make contact and are highlighted in red to grab attention.
+Third, the **"send us a message"** section features a **contact form**, which requests the users name, email, and a box to add their message. At the bottom of the form is a **Send Button**. The width of the form changes depending on the screen size to ensure it looks clear on all devices. The form is not currently functional as it is beyond the scope of this project (see "Features to Implement in Future" section below).
+Finally, the **"join our mailing list"** section features a **paragraph element** explaining what users gain from signing up to the mailing list and a **Join Mailing List Button** that launches a **Modal** which requests the clients name and email. Below this is a **Close Button** to close the modal and a **Submit** button to submit the request. The submit button is not currently functional as it is beyond the scope of this project (see "Features to Implement in Future" section below).
 
 #### Basket
 
@@ -150,6 +150,7 @@ The Basket page features a message that the page is under construction and invit
 * Footer Social Icons - Exists on [every page](index.html) and allows users to access the brands social media platforms.
 * [Hero Image Carousel](index.html) - Allows potential clients to view examples of the brands products. Creates immediate connection and emmotional response.
 * [Call to Action Button](index.html) - Guides potential clients towards the shop page via "Shop Now" button to lead them into making a purchase. Reduces steps to point of purchase.
+* Hero Image - Exists on [shop.html, about.html and contact.html](shop.html) - Grabs the users attention and allows users to view examples of the products on offer. Also helps improve the UX.
 * [Shop Item Cards](shop.html) - Lists items available for purchase in a clear grid view. Each card provides an image of the product, a brief description of the product, the products price and a button to add the product to basket.
 * [About Paragraph](about.html) - Provides information about the brand without overloading the client with information.
 * [Promotional Video](about.html) - Allows potential clients to connect with the brand, see what inspires their designs and get insight into a photo shoot. Creates connection and emmotional response.
